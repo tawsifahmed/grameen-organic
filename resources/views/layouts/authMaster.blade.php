@@ -6,8 +6,6 @@
   @vite('resources/css/app.css')
 </head>
     <body>
-     @include('Layout.header') 
      @yield('content')
-     @include('Layout.footer')
     </body>
 </html>
