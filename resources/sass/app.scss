@@ -1,0 +1,41 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.lang-selector{
+    select {
+        // outline:0;
+        // box-shadow:none;
+        // border:0!important;
+        // background: #ffffff;
+        // background-image: none;
+        // flex: 1;
+       
+        // color:#000000;
+        // cursor:pointer;
+        // font-size: 1em;
+        font-family: 'Nunito', sans-serif;
+        border: 0!important;
+        color:#A8A0A0;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.9px;
+        -moz-appearance: none;
+        /* Remove default arrow in Safari and Chrome */
+        -webkit-appearance: none;
+        appearance: none;
+    
+        /* Add custom arrow styling */
+        background-image: url('../../public/assets/images/icons/down-arrow1.png');
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: 16px; /* Adjust the size as needed */
+        padding-right: 20px; 
+     }
+}

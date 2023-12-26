@@ -1,8 +1,11 @@
 /node_modules
+node_modules
 /public/storage
 /public/uploads
 /storage/*.key
+storage/*.key
 /vendor
+vendor
 
 .phpunit.result.cache
 docker-compose.override.yml
