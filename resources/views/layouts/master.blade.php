@@ -7,7 +7,7 @@
   @yield('customCSS')
 </head>
     <body>
-     @include('layouts.header') 
+     {{-- @include('layouts.header')  --}}
      @yield('content')
      @include('layouts.footer')
 

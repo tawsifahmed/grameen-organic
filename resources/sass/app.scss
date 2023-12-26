@@ -7,35 +7,187 @@
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
 
-.lang-selector{
-    select {
-        // outline:0;
-        // box-shadow:none;
-        // border:0!important;
-        // background: #ffffff;
-        // background-image: none;
-        // flex: 1;
-       
-        // color:#000000;
-        // cursor:pointer;
-        // font-size: 1em;
-        font-family: 'Nunito', sans-serif;
-        border: 0!important;
-        color:#A8A0A0;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: normal;
-        letter-spacing: 0.9px;
-        -moz-appearance: none;
-        /* Remove default arrow in Safari and Chrome */
-        -webkit-appearance: none;
-        appearance: none;
-    
-        /* Add custom arrow styling */
-        background-image: url('../../public/assets/images/icons/down-arrow1.png');
-        background-repeat: no-repeat;
-        background-position: right center;
-        background-size: 16px; /* Adjust the size as needed */
-        padding-right: 20px; 
-     }
+
+
+
+// navbar section
+.nav{
+    padding-top: 22px;
+
+    .left-part{
+      
+        .lang-selector{
+            select {
+                // outline:0;
+                // box-shadow:none;
+                // border:0!important;
+                // background: #ffffff;
+                // background-image: none;
+                // flex: 1;
+               
+                // color:#000000;
+                // font-size: 1em;
+                cursor: pointer;
+                font-family: 'Nunito', sans-serif;
+                border: 0!important;
+                color:#A8A0A0;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 0.9px;
+                -moz-appearance: none;    
+                -webkit-appearance: none;
+                appearance: none;
+                background-image: url('../../public/assets/images/icons/down-arrow1.svg');
+                background-repeat: no-repeat;
+                background-position: right center;
+                background-size: 16px;
+                padding-right: 20px; 
+             }
+        }
+        .brand-logo-wrapper img{
+            width: 274px;
+            height: 126px;
+            cursor: pointer;
+            margin-top: 22px;
+        }
+    }
+    .mid-n-right-part{
+        padding-top: 13px;
+        .mid-part{
+            display: flex;
+            justify-content: space-between;
+            gap: 31px;
+            a{
+                color: #374B5C;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-decoration: none;
+            }
+        }
+
+        .right-part{
+            .notification-icon-wrapper{
+                cursor: pointer;
+                width: 24px;
+                height: 24px;
+                margin-right: 32px;
+                margin-left: 48px;
+            }
+            .user-logo-wrapper{
+                cursor: pointer;
+                width: 48px;
+                height: 48px;
+                margin-right: 51px;
+
+            }
+            .login-signup{
+                display: flex;
+                justify-content: space-between;
+                gap: 22px;
+                .login-btn{
+                    background-color: #00BD6A;
+                    text-decoration: none;
+                    border: none;
+                    display: flex;
+                    align-items: center;
+                    padding: 11px 26px;
+                    border-radius: 5px;
+                    svg{
+                        margin-right: 9px;
+                    }
+                    p{
+                        margin-bottom: 0 !important;
+                    }
+                }
+                .signup-btn{
+                    background-color: white;
+                    text-decoration: none;
+                    border: none;
+                    display: flex;
+                    align-items: center;
+                    padding: 11px 26px;
+                    border-radius: 5px;
+                    svg{
+                        margin-right: 9px;
+                       
+                    }
+                    p{
+                        margin-bottom: 0 !important;
+                        color: #00BD6A !important;
+                    }
+                }
+                .signup-btn:hover{
+                    background-color: #00BD6A;
+                    svg{
+                        fill: white;
+                    }
+                    p{
+                        color: white !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// homepage section
+.homepage-section{
+    // web
+    .web-home-intro{
+        position: relative;
+        .bg-left{
+            margin-top: 250px;
+            .second-leaf{
+                margin-top: -370px;
+            }
+        }
+        .bg-right{
+        position: absolute;
+        right: 0;
+            
+        }
+        .mid-part{
+            position: absolute;
+            top: 26%;
+            left: 6%;
+            h3{
+                color: #374B5C;  
+                font-size: 44px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+            h2{
+                color: #374B5C;
+                font-size: 72px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            p{
+                color: #374B5C;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                width: 50%;
+            }
+            .banner-btn{
+                text-decoration: none !important;
+                border: none !important;
+                color: #ffffff;
+                background-color: #00BD6A;
+                padding: 14px 25px;
+                font-size: 18px;
+                border-radius: 5px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+        }
+    }
 }
