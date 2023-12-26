@@ -226,8 +226,5 @@
                 </div>
             </div>
         </div>
-
     </div>
-
-    <a href="{{ route('create.account') }}"> Create Account </a>
 @endsection
