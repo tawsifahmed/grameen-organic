@@ -1,5 +1,4 @@
 @extends('layouts.master')
-
 @section('content')
     <div class="homepage-section">
         <div class="web-home-intro d-flex">
@@ -36,18 +35,20 @@
                 </svg>
             </div>
             <div class="mid-part">
-                <h3> Agriculture investment with</h3>
-                <h2>Grameen Organic</h2>
-                <p>Providing access to agribusiness anytime, anywhere, by
-                    enabling individuals to invest in farmers and agricultural products. </p>
-                <button class="banner-btn">Invest Now</button>
+                <h3>  How we work</h3>
+                {{-- <h2>Grameen Organic</h2> --}}
+                <p>Our goal at Grameen Organic is to encourage community 
+                    growth within the agriculture industry.  </p>
+                {{-- <button class="banner-btn">Invest Now</button> --}}
+                <img class="img-fluid" src="{{ asset('assets/images/banners/ff-how-we-work.svg') }}" alt="">
+                
             </div>
             <div class="bg-right">
-                <img class="img-fluid" src="{{ asset('assets/images/banners/bg-banners1.png') }}" alt="">
+                <img class="img-fluid" src="{{ asset('assets/images/banners/fund-farmer-banner1.svg') }}" alt="">
             </div>
 
         </div>
-        <div class="container home-intro-two">
+        {{-- <div class="container home-intro-two">
             <h3 class="text-center">A New Way To Invest In Agriculture Opportunities</h3>
             <p class="text-center">We are crowdfunding platform enabling you to help
                 providing agricultural input to our farmers. </p>
@@ -130,20 +131,29 @@
                 </div>
                 <div class="card-wrapper">
                     <div class="card-two shadow">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="96" height="41" viewBox="0 0 96 41" fill="none">
-                            <path d="M30 40V2H95V40H30Z" stroke="#D1EAD3" stroke-width="2" stroke-miterlimit="10"/>
-                            <path d="M1.47001 39.806H48.894V31.239H1.47001V39.806Z" stroke="#D1EAD3" stroke-width="2" stroke-miterlimit="10"/>
-                            <path d="M1.47001 39.806H48.894V31.239H1.47001V39.806Z" fill="#66BB6A" stroke="#D1EAD3" stroke-width="2" stroke-miterlimit="10"/>
-                            <path d="M10.955 30.016H57.194V21.449H10.955V30.016Z" stroke="#D1EAD3" stroke-width="2" stroke-miterlimit="10"/>
-                            <path d="M10.955 30.016H57.194V21.449H10.955V30.016Z" fill="#66BB6A" stroke="#D1EAD3" stroke-width="2" stroke-miterlimit="10"/>
-                            <path d="M20.44 20.225H67.864V11.658H20.44V20.225Z" stroke="#D1EAD3" stroke-width="2" stroke-miterlimit="10"/>
-                            <path d="M20.44 20.225H67.864V11.658H20.44V20.225Z" fill="#66BB6A" stroke="#D1EAD3" stroke-width="2" stroke-miterlimit="10"/>
-                            <path d="M29.925 10.4339H76.164V1.86694H29.925V10.4339Z" stroke="#D1EAD3" stroke-width="2" stroke-miterlimit="10"/>
-                            <path d="M29.925 10.4339H76.164V1.86694H29.925V10.4339Z" fill="#66BB6A" stroke="#D1EAD3" stroke-width="2" stroke-miterlimit="10"/>
-                          </svg>
-                        <h4 class="text-white">Grow your business 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="96" height="41" viewBox="0 0 96 41"
+                            fill="none">
+                            <path d="M30 40V2H95V40H30Z" stroke="#D1EAD3" stroke-width="2" stroke-miterlimit="10" />
+                            <path d="M1.47001 39.806H48.894V31.239H1.47001V39.806Z" stroke="#D1EAD3" stroke-width="2"
+                                stroke-miterlimit="10" />
+                            <path d="M1.47001 39.806H48.894V31.239H1.47001V39.806Z" fill="#66BB6A" stroke="#D1EAD3"
+                                stroke-width="2" stroke-miterlimit="10" />
+                            <path d="M10.955 30.016H57.194V21.449H10.955V30.016Z" stroke="#D1EAD3" stroke-width="2"
+                                stroke-miterlimit="10" />
+                            <path d="M10.955 30.016H57.194V21.449H10.955V30.016Z" fill="#66BB6A" stroke="#D1EAD3"
+                                stroke-width="2" stroke-miterlimit="10" />
+                            <path d="M20.44 20.225H67.864V11.658H20.44V20.225Z" stroke="#D1EAD3" stroke-width="2"
+                                stroke-miterlimit="10" />
+                            <path d="M20.44 20.225H67.864V11.658H20.44V20.225Z" fill="#66BB6A" stroke="#D1EAD3"
+                                stroke-width="2" stroke-miterlimit="10" />
+                            <path d="M29.925 10.4339H76.164V1.86694H29.925V10.4339Z" stroke="#D1EAD3" stroke-width="2"
+                                stroke-miterlimit="10" />
+                            <path d="M29.925 10.4339H76.164V1.86694H29.925V10.4339Z" fill="#66BB6A" stroke="#D1EAD3"
+                                stroke-width="2" stroke-miterlimit="10" />
+                        </svg>
+                        <h4 class="text-white">Grow your business
                             with us</h4>
-                        <h5 class="text-white">Invest in agriculture, reap the rewards. 
+                        <h5 class="text-white">Invest in agriculture, reap the rewards.
                             Let us help your business grow with
                             our agri investments.</h5>
                     </div>
@@ -219,12 +229,117 @@
                             </g>
                         </svg>
                         <h4>Social Impact Invesment</h4>
-                        <h5>Invest in agri with social impact. Grow 
-                            your business while making a positive 
+                        <h5>Invest in agri with social impact. Grow
+                            your business while making a positive
                             difference in the world. Join us today.</h5>
                     </div>
                 </div>
             </div>
+        </div> --}}
+
+        <div class="container home-intro-three" style="margin-top: -290px;">
+            <h1>
+                Invest on your convenience
+            </h1>
+            <p>We are transforming the agriculture industry through innovative solutions that increase efficiency,
+                sustainability, and
+                profitability. So, go ahead, join us, dream big, and make a difference!
+            </p>
+            <div class="container intro-three-cards my-5">
+                <div class="row gx-5 gy-5">
+                    <div class="col-12 col-md-6">
+                        <div class="intro-three-card"
+                            style="background-image:linear-gradient(180deg, rgba(97, 118, 127, 0.00) 0%, #324148 100%), url({{ asset('assets/images/banners/intro-three-card1.png') }})">
+                            <h4>NEW FARM <br> TODAY</h2>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="66" height="6" viewBox="0 0 66 6"
+                                    fill="none">
+                                    <path
+                                        d="M2.06963 0.676514H64.0398C64.4963 0.676514 64.9342 0.857874 65.257 1.1807C65.5798 1.50352 65.7612 1.94136 65.7612 2.39791V4.1193C65.7612 4.57584 65.5798 5.01368 65.257 5.33651C64.9342 5.65933 64.4963 5.84069 64.0398 5.84069H2.06963C1.61309 5.84069 1.17524 5.65933 0.85242 5.33651C0.529597 5.01368 0.348236 4.57584 0.348236 4.1193V2.39791C0.348236 1.94136 0.529597 1.50352 0.85242 1.1807C1.17524 0.857874 1.61309 0.676514 2.06963 0.676514Z"
+                                        fill="white" />
+                                </svg>
+                                <h2>Short terms
+                                    investment
+                                </h2>
+                                <p>Invest in farms that will be ready for harvest in 03-08 months</p>
+                                <button class="rounded">
+                                    Browse Farm
+                                </button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="intro-three-card"
+                            style="background-image:linear-gradient(180deg, rgba(97, 118, 127, 0.00) 0%, #324148 100%), url({{ asset('assets/images/banners/intro-three-card2.png') }})">
+                            <h4>FULLY <br> FUNDED</h2>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="66" height="6" viewBox="0 0 66 6"
+                                    fill="none">
+                                    <path
+                                        d="M2.06963 0.676514H64.0398C64.4963 0.676514 64.9342 0.857874 65.257 1.1807C65.5798 1.50352 65.7612 1.94136 65.7612 2.39791V4.1193C65.7612 4.57584 65.5798 5.01368 65.257 5.33651C64.9342 5.65933 64.4963 5.84069 64.0398 5.84069H2.06963C1.61309 5.84069 1.17524 5.65933 0.85242 5.33651C0.529597 5.01368 0.348236 4.57584 0.348236 4.1193V2.39791C0.348236 1.94136 0.529597 1.50352 0.85242 1.1807C1.17524 0.857874 1.61309 0.676514 2.06963 0.676514Z"
+                                        fill="white" />
+                                </svg>
+                                <h2>Short terms
+                                    investment</h2>
+                                <p>Consider farms that have long term investment program with higher return</p>
+                                <button class="rounded">
+                                    Browse Farm
+                                </button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 ">
+                        <div class="intro-three-card"
+                            style="background-image:linear-gradient(180deg, rgba(97, 118, 127, 0.00) 0%, #324148 100%), url({{ asset('assets/images/banners/intro-three-card3.png') }})">
+                            <h4>NEW FARM <br> TODAY</h2>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="66" height="6" viewBox="0 0 66 6"
+                                    fill="none">
+                                    <path
+                                        d="M2.06963 0.676514H64.0398C64.4963 0.676514 64.9342 0.857874 65.257 1.1807C65.5798 1.50352 65.7612 1.94136 65.7612 2.39791V4.1193C65.7612 4.57584 65.5798 5.01368 65.257 5.33651C64.9342 5.65933 64.4963 5.84069 64.0398 5.84069H2.06963C1.61309 5.84069 1.17524 5.65933 0.85242 5.33651C0.529597 5.01368 0.348236 4.57584 0.348236 4.1193V2.39791C0.348236 1.94136 0.529597 1.50352 0.85242 1.1807C1.17524 0.857874 1.61309 0.676514 2.06963 0.676514Z"
+                                        fill="white" />
+                                </svg>
+                                <h2>Short terms
+                                    investment</h2>
+                                <p>Invest in farms that will be ready for harvest in 03- 06 Months </p>
+                                <button class="rounded">
+                                    Browse Farm
+                                </button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 ">
+                        <div class="intro-three-card"
+                            style="background-image:linear-gradient(180deg, rgba(97, 118, 127, 0.00) 0%, #324148 100%), url({{ asset('assets/images/banners/intro-three-card4.png') }})">
+                            <h4>FULLY <br> FUNDED</h2>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="66" height="6" viewBox="0 0 66 6"
+                                    fill="none">
+                                    <path
+                                        d="M2.06963 0.676514H64.0398C64.4963 0.676514 64.9342 0.857874 65.257 1.1807C65.5798 1.50352 65.7612 1.94136 65.7612 2.39791V4.1193C65.7612 4.57584 65.5798 5.01368 65.257 5.33651C64.9342 5.65933 64.4963 5.84069 64.0398 5.84069H2.06963C1.61309 5.84069 1.17524 5.65933 0.85242 5.33651C0.529597 5.01368 0.348236 4.57584 0.348236 4.1193V2.39791C0.348236 1.94136 0.529597 1.50352 0.85242 1.1807C1.17524 0.857874 1.61309 0.676514 2.06963 0.676514Z"
+                                        fill="white" />
+                                </svg>
+                                <h2>Short terms
+                                    investment</h2>
+                                <p>Consider farms that have long term investment program. </p>
+                                <button class="rounded">
+                                    Learn More
+                                </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
+        <div class="container d-flex flex-column gap-4 home-intro-four mb-5">
+            <p class="fs-1">How it works</p>
+            <img class="img-fluid" src="{{ asset('assets/images/banners/how-it-works-1.svg') }}" alt="">
+            <img class="img-fluid" src="{{ asset('assets/images/banners/how-it-works-2.svg') }}" alt="">
+            <img class="img-fluid" src="{{ asset('assets/images/banners/how-it-works-3.svg') }}" alt="">
+            <img class="img-fluid" src="{{ asset('assets/images/banners/how-it-works-4.svg') }}" alt="">
+            <br>
+            <br>
+            <img class="img-fluid" src="{{ asset('assets/images/banners/ff-our-model.svg') }}" alt="">
+            <br>
+            <br>
+            <img class="img-fluid pb-5 mb-5" src="{{ asset('assets/images/banners/why-grameen.svg') }}" alt="">
+
+            
+        </div>
+    </div>
+
     </div>
 @endsection

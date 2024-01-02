@@ -18,6 +18,12 @@ use App\Http\Controllers\AuthController;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
+Route::get('/fund-farmer', [HomeController::class, 'fundFarmer'])->name('fund.farmer');
+
+Route::get('/our-impact', [HomeController::class, 'ourImpact'])->name('our.impact');
+
+Route::get('/short-term-investment', [HomeController::class, 'shortTerm'])->name('short.term');
+
 Route::get('/create-account', [AuthController::class, 'index'])->name('create.account');
 
 Route::get('/login', [AuthController::class, 'login'])->name('login');

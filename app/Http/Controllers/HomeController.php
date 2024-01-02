@@ -8,6 +8,21 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return view('homePage.home');
+        return view('pages.home');
+    }
+
+    public function fundFarmer()
+    {
+        return view('pages.fundFarmer');
+    }
+
+    public function ourImpact()
+    {
+        return view('pages.ourImpact');
+    }
+
+    public function shortTerm()
+    {
+        return view('pages.shortTerm');
     }
 }

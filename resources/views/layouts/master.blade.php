@@ -6,7 +6,7 @@
   @vite(['resources/css/app.css', 'resources/js/app.js'])
   @yield('customCSS')
 </head>
-    <body>
+    <body >
      @include('layouts.header') 
      @yield('content')
      @include('layouts.footer')
@@ -14,3 +14,4 @@
     @yield('customJS')
     </body>
 </html>
+
