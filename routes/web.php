@@ -42,3 +42,11 @@ Route::get('/verification', [AuthController::class, 'verification'])->name('veri
 Route::get('/welcome-dashboard', [AuthController::class, 'welcomeDashboard'])->name('welcome.dashboard');
 
 Route::get('/booking-method', [BookingController::class, 'bookingMethod'])->name('booking.method');
+
+Route::get('/booking-details', [BookingController::class, 'bookingDetails'])->name('booking.details');
+
+Route::get('/cheque-submission', [BookingController::class, 'chequeSubmission'])->name('cheque.submission');
+
+Route::get('/bank-transfer', [BookingController::class, 'bankTransfer'])->name('bank.transfer');
+
+Route::get('/booking-confirmation', [BookingController::class, 'bookingConfirmation'])->name('booking.confirmation');

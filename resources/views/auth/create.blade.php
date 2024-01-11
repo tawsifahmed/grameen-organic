@@ -19,7 +19,7 @@
         <div class="styled-checkbox mt-5">
             <input type="checkbox" id="my-checkbox" />
             <label for="my-checkbox">I agree with the Terms Condition & Privacy Policy</label>
-          </div>
+        </div>
 
         <div class="create-login-btns-wrapper d-flex justify-content-center align-items-center flex-column gap-4 mt-3">
             <a href="{{ route('signup') }}" class="btn btn-success create-btn ">
@@ -29,7 +29,7 @@
                 Login
             </a>
         </div>
-        <p class="login-text mt-4">Already have an account?  <span><a href="">Login Now</a></span></p>
+        <p class="login-text mt-4">Already have an account? <span><a href="">Login Now</a></span></p>
 
         <a class="privacy-route mt-3" href="">Privacy | Terms & Condition</a>
     </div>

@@ -21,7 +21,7 @@
                     </div>
                   </fieldset>
             </div>
-            <a class="next-btn" href="">Next</a>
+            <a class="next-btn" href="{{route('booking.details')}}">Next</a>
 
         </form>
     </div>

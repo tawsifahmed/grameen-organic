@@ -12,13 +12,21 @@ class BookingController extends Controller
         return view('booking.bookingMethod');
     }
 
-    // public function signup(){
-    //     return view('auth.signup');
-    // }
+    public function bookingDetails(){
+        return view('booking.bookingDetails');
+    }
 
-    // public function verification(){
-    //     return view('auth.verification');
-    // }
+    public function chequeSubmission(){
+        return view('booking.chequeSubmission');
+    }
+
+    public function bankTransfer(){
+        return view('booking.bankTransfer');
+    }
+
+    public function bookingConfirmation(){
+        return view('booking.bookingConfirmation');
+    }
 
     // public function welcomeDashboard(){
     //     return view('auth.welcomeDashboard');

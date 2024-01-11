@@ -139,7 +139,7 @@
                                 </button>
                             </div>
                             <div class="create-acc-wrapper">
-                                <p>Not  registered yet? <span> <a href="">Create Account</a></span></p>
+                                <p>Not  registered yet? <span> <a href="{{route('create.account')}}">Create Account</a></span></p>
                             </div>
 
                         </div>
