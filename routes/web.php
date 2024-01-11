@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BookingController;
+use App\Http\Controllers\CrowdFundInvestorController;
 
 /*
 |--------------------------------------------------------------------------
@@ -50,3 +51,5 @@ Route::get('/cheque-submission', [BookingController::class, 'chequeSubmission'])
 Route::get('/bank-transfer', [BookingController::class, 'bankTransfer'])->name('bank.transfer');
 
 Route::get('/booking-confirmation', [BookingController::class, 'bookingConfirmation'])->name('booking.confirmation');
+
+Route::get('/crowd-fund-investor-dashboard', [CrowdFundInvestorController::class, 'userCrowdFundDashboard'])->name('crowd.fund.investor');
