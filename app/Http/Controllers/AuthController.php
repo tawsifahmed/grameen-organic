@@ -21,5 +21,13 @@ class AuthController extends Controller
     public function signup(){
         return view('auth.signup');
     }
+
+    public function verification(){
+        return view('auth.verification');
+    }
+
+    public function welcomeDashboard(){
+        return view('auth.welcomeDashboard');
+    }
     
 }

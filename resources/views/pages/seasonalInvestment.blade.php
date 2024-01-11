@@ -68,7 +68,7 @@
                                     <p class="fs-6 fw-light text-end">BDT 30,000/Share </p>
                                     <p class="fs-6 fw-light text-end">Earning: 6%- 8%</p>
                                     <p class="fs-6 fw-light text-end">Duration: 8 months</p>
-                                  <a class="fs-6 fw-light text-end float-end px-4 py-1 rounded" href="">Book Now</a>
+                                  <a class="fs-6 fw-light text-end float-end px-4 py-1 rounded" href="{{route('booking.method')}}">Book Now</a>
                                   </div>
                                 </div>
                             </div>
@@ -90,7 +90,7 @@
                                     <p class="fs-6 fw-light text-end">BDT 30,000/Share </p>
                                     <p class="fs-6 fw-light text-end">Earning: 6%- 8%</p>
                                     <p class="fs-6 fw-light text-end">Duration: 8 months</p>
-                                  <a class="fs-6 fw-light text-end float-end px-4 py-1 rounded" href="">Book Now</a>
+                                  <a class="fs-6 fw-light text-end float-end px-4 py-1 rounded" href="{{route('booking.method')}}">Book Now</a>
                                   </div>
                                 </div>
                             </div>
@@ -112,7 +112,7 @@
                                     <p class="fs-6 fw-light text-end">BDT 30,000/Share </p>
                                     <p class="fs-6 fw-light text-end">Earning: 6%- 8%</p>
                                     <p class="fs-6 fw-light text-end">Duration: 8 months</p>
-                                  <a class="fs-6 fw-light text-end float-end px-4 py-1 rounded" href="">Book Now</a>
+                                  <a class="fs-6 fw-light text-end float-end px-4 py-1 rounded" href="{{route('booking.method')}}">Book Now</a>
                                   </div>
                                 </div>
                             </div>
@@ -134,7 +134,7 @@
                                     <p class="fs-6 fw-light text-end">BDT 30,000/Share </p>
                                     <p class="fs-6 fw-light text-end">Earning: 6%- 8%</p>
                                     <p class="fs-6 fw-light text-end">Duration: 8 months</p>
-                                  <a class="fs-6 fw-light text-end float-end px-4 py-1 rounded" href="">Book Now</a>
+                                  <a class="fs-6 fw-light text-end float-end px-4 py-1 rounded" href="{{route('booking.method')}}">Book Now</a>
                                   </div>
                                 </div>
                             </div>
@@ -156,7 +156,7 @@
                                     <p class="fs-6 fw-light text-end">BDT 30,000/Share </p>
                                     <p class="fs-6 fw-light text-end">Earning: 6%- 8%</p>
                                     <p class="fs-6 fw-light text-end">Duration: 8 months</p>
-                                  <a class="fs-6 fw-light text-end float-end px-4 py-1 rounded" href="">Book Now</a>
+                                  <a class="fs-6 fw-light text-end float-end px-4 py-1 rounded" href="{{route('booking.method')}}">Book Now</a>
                                   </div>
                                 </div>
                             </div>
@@ -178,7 +178,7 @@
                                     <p class="fs-6 fw-light text-end">BDT 30,000/Share </p>
                                     <p class="fs-6 fw-light text-end">Earning: 6%- 8%</p>
                                     <p class="fs-6 fw-light text-end">Duration: 8 months</p>
-                                  <a class="fs-6 fw-light text-end float-end px-4 py-1 rounded" href="">Book Now</a>
+                                  <a class="fs-6 fw-light text-end float-end px-4 py-1 rounded" href="{{route('booking.method')}}">Book Now</a>
                                   </div>
                                 </div>
                             </div>

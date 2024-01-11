@@ -25,4 +25,18 @@ class HomeController extends Controller
     {
         return view('pages.shortTerm');
     }
+
+    public function longTerm()
+    {
+        return view('pages.longTerm');
+    }
+
+    public function seasonalInvestment()
+    {
+        return view('pages.seasonalInvestment');
+    }
+    public function agriTradeInvestment()
+    {
+        return view('pages.agriTradeInvestment');
+    }
 }

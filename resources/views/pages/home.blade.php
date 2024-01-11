@@ -257,7 +257,7 @@
                                         fill="white" />
                                 </svg>
                                 <h2>Short terms
-                                    investment
+                                    Investment
                                 </h2>
                                 <p>Invest in farms that will be ready for harvest in 03-08 months</p>
                                 <button class="rounded">
@@ -275,11 +275,11 @@
                                         d="M2.06963 0.676514H64.0398C64.4963 0.676514 64.9342 0.857874 65.257 1.1807C65.5798 1.50352 65.7612 1.94136 65.7612 2.39791V4.1193C65.7612 4.57584 65.5798 5.01368 65.257 5.33651C64.9342 5.65933 64.4963 5.84069 64.0398 5.84069H2.06963C1.61309 5.84069 1.17524 5.65933 0.85242 5.33651C0.529597 5.01368 0.348236 4.57584 0.348236 4.1193V2.39791C0.348236 1.94136 0.529597 1.50352 0.85242 1.1807C1.17524 0.857874 1.61309 0.676514 2.06963 0.676514Z"
                                         fill="white" />
                                 </svg>
-                                <h2>Short terms
-                                    investment</h2>
+                                <h2>Long terms
+                                    Investment</h2>
                                 <p>Consider farms that have long term investment program with higher return</p>
                                 <button class="rounded">
-                                    Browse Farm
+                                    <a href="{{route('long.term')}}">Browse Farm</a>
                                 </button>
                         </div>
                     </div>
@@ -293,11 +293,11 @@
                                         d="M2.06963 0.676514H64.0398C64.4963 0.676514 64.9342 0.857874 65.257 1.1807C65.5798 1.50352 65.7612 1.94136 65.7612 2.39791V4.1193C65.7612 4.57584 65.5798 5.01368 65.257 5.33651C64.9342 5.65933 64.4963 5.84069 64.0398 5.84069H2.06963C1.61309 5.84069 1.17524 5.65933 0.85242 5.33651C0.529597 5.01368 0.348236 4.57584 0.348236 4.1193V2.39791C0.348236 1.94136 0.529597 1.50352 0.85242 1.1807C1.17524 0.857874 1.61309 0.676514 2.06963 0.676514Z"
                                         fill="white" />
                                 </svg>
-                                <h2>Short terms
-                                    investment</h2>
+                                <h2>Seasonal 
+                                    Investment</h2>
                                 <p>Invest in farms that will be ready for harvest in 03- 06 Months </p>
                                 <button class="rounded">
-                                    Browse Farm
+                                    <a href="{{route('seasonal.investment')}}">Browse Farm</a>
                                 </button>
                         </div>
                     </div>
@@ -311,11 +311,11 @@
                                         d="M2.06963 0.676514H64.0398C64.4963 0.676514 64.9342 0.857874 65.257 1.1807C65.5798 1.50352 65.7612 1.94136 65.7612 2.39791V4.1193C65.7612 4.57584 65.5798 5.01368 65.257 5.33651C64.9342 5.65933 64.4963 5.84069 64.0398 5.84069H2.06963C1.61309 5.84069 1.17524 5.65933 0.85242 5.33651C0.529597 5.01368 0.348236 4.57584 0.348236 4.1193V2.39791C0.348236 1.94136 0.529597 1.50352 0.85242 1.1807C1.17524 0.857874 1.61309 0.676514 2.06963 0.676514Z"
                                         fill="white" />
                                 </svg>
-                                <h2>Short terms
-                                    investment</h2>
+                                <h2>Agri Trade
+                                    investment</h2> 
                                 <p>Consider farms that have long term investment program. </p>
                                 <button class="rounded">
-                                    Learn More
+                                    <a href="{{route('agri.investment')}}">Browse Farm</a>
                                 </button>
                         </div>
                     </div>

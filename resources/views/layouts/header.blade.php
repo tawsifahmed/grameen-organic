@@ -7,7 +7,7 @@
             </select>
         </div>
         <a href="{{route('home')}}" class="brand-logo-wrapper cursor-pointer">
-            <img  src="{{ asset('assets/images/logos/brand-logo-1.png') }}" alt="">
+            <img class="img-fluid" width="274" height="126px" src="{{ asset('assets/images/logos/brand-logo-1.png') }}" alt="">
         </a>
     </div>
     <div class="mid-n-right-part d-flex align-items-center justify-content-between">

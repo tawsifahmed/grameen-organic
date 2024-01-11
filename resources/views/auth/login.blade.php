@@ -1,6 +1,7 @@
 @extends('layouts.authMaster')
 
-<div class="login-wrapper container w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+
+<div class="login-wrapper container w-100 d-flex flex-column justify-content-center align-items-center">
     <div class="w-100">
         <div class="lang-selector position-absolute" style="top: 10%; right: 10%;">
             <select name="format" id="format" class="selectpicker" data-width="fit">
@@ -151,3 +152,4 @@
         </div>
     </div>
 </div>
+

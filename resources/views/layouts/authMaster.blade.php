@@ -12,7 +12,7 @@
 
 </head>
 
-<body>
+<body class="d-flex justify-content-center align-items-center">
     @yield('content')
 
     @yield('customJS')
