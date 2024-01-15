@@ -2220,10 +2220,11 @@
 
 //crowd-investor dashboard
 .crowd-dashboard {
-  .row {
+  .dashboard-headers {
     .d-card {
       border-radius: 8px;
-      padding: 7px 10px;
+      padding: 10px 10px;
+      margin-bottom: 10px;
       p {
         margin-bottom: 0px;
       }
@@ -2237,16 +2238,40 @@
         color: #2C2C2C;
       }
     }
-    .funded {
-      
+    .funded { 
       background: #a6f7e2;
-      
       .amount-text {
         color: #77b900;
       }
     }
     .earning{
-
+      background: #B79BFF;
+    }
+    .act-farm{
+      background: #FFE5A5;
+    }
+    .mat-farm{
+      background: #C7FFA5;
+    }
+  }
+  .dashboard-products{
+    p{
+      margin-bottom: 0px !important;
+    }
+    .product-list{
+      .product-card{
+        border-radius: 8px;
+background: #EFE9FF;
+        .img-wrapper{
+          width: 83px;
+          height: 83px;
+          background-color: #DEDEDE;
+          border-radius: 10px;
+        }
+        h5, h6{
+          margin-bottom: 0px !important;
+        }
+      }
     }
   }
 }

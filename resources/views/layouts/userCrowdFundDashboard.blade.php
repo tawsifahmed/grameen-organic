@@ -43,13 +43,14 @@
             </div>
         </div>
     </div>
-    <div class="container com-layout">
+    <div class="container mx-auto my-0 com-layout">
         <div class="row sideb">
             <div class="col-md-3 col-12">
                 <p>Hello, “Name”</p>
                 <div class="sidebar">
                     <ul>
-                        <li class="{{ Request::is('crowd-fund-investor-dashboard') ? 'active' : '' }}"><a
+                        <li class="{{ Request::is('crowd-fund-investor-dashboard') ? 'active' : '' }}">
+                            <a class="d-flex align-items-center gap-2"
                                 href="{{ route('crowd.fund.investor') }}">
                                 <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="#84828A">
@@ -58,7 +59,8 @@
                                 Dashboard
                             </a>
                         </li>
-                        <li class="{{ Request::is('crowd-fund-investor-portfolio') ? 'active' : '' }}"><a
+                        <li class="{{ Request::is('crowd-fund-investor-portfolio') ? 'active' : '' }}">
+                            <a class="d-flex align gap-2"
                                 href="">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none">
@@ -73,7 +75,8 @@
                                 Portfolio
                             </a>
                         </li>
-                        <li class="{{ Request::is('crowd-fund-investor-portfolio') ? 'active' : '' }}"><a
+                        <li class="{{ Request::is('crowd-fund-investor-portfolio') ? 'active' : '' }}">
+                            <a class="d-flex align gap-2"
                                 href="">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none">
@@ -84,7 +87,8 @@
                                 Blog Post
                             </a>
                         </li>
-                        <li class="{{ Request::is('crowd-fund-investor-portfolio') ? 'active' : '' }}"><a
+                        <li class="{{ Request::is('crowd-fund-investor-portfolio') ? 'active' : '' }}">
+                            <a class="d-flex align gap-2"
                                 href="">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none">
@@ -94,7 +98,8 @@
                                 Reporting & Transaction
                             </a>
                         </li>
-                        <li class="{{ Request::is('crowd-fund-investor-portfolio') ? 'active' : '' }}"><a
+                        <li class="{{ Request::is('crowd-fund-investor-portfolio') ? 'active' : '' }}">
+                            <a class="d-flex align gap-2"
                                 href="">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                     viewBox="0 0 24 24" fill="none">
@@ -128,10 +133,11 @@
 </body>
 
 
-<script
-    src="https://cdn.jsdelivr.net/npm/chart.js@4.0.1/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.0.1/dist/chart.umd.min.js"></script>
+
+{{-- total funded graph --}}
 <script>
-        const canvas = document.getElementById("line-chart");
+    const canvas = document.getElementById("line-chart");
     canvas.width = 78;
     canvas.height = 24;
 
@@ -169,4 +175,48 @@
         },
     });
 </script>
+
+{{-- total earning --}}
+<script>
+    const canvas = document.getElementById("total-earning-chart");
+    canvas.width = 78;
+    canvas.height = 24;
+
+    new Chart(canvas, {
+        type: 'line',
+        data: {
+            labels: [1, 2, 3, 4, 5],
+            datasets: [{
+                data: [1, 5205, 1321, 1516, 2107],
+                label: "America",
+                borderColor: "white",
+                fill: false,
+            }],
+        },
+        options: {
+            responsive: false, // Disable automatic resizing
+            maintainAspectRatio: false, // Disable maintaining aspect ratio
+            title: {
+                display: true,
+                text: 'Chart JS Line Chart Example',
+            },
+            scales: {
+                x: {
+                    display: false, // Hide x-axis line and labels
+                },
+                y: {
+                    display: false, // Hide y-axis line and labels
+                },
+            },
+            plugins: {
+                legend: {
+                    display: false, // You may want to set this to false if you want to hide the legend as well
+                },
+            },
+        },
+    });
+</script>
+
+
+
 </html>
