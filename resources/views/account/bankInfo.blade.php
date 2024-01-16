@@ -21,7 +21,7 @@
                 <label class="fs-6">Account Number</label>
                 <input class="form-control" type="text" placeholder="Type account number" required autofocus>
             </div>
-            <a class="btn w-sm-25 w-100 py-3 btn-primary submit-btn btn-block text-white mt-3" style="background-color: #00BD6A; border:none;">
+            <a class="btn w-sm-25 py-3 btn-primary submit-btn btn-block text-white mt-3" style="background-color: #00BD6A; border:none;">
                 Submit
             </a>
 

@@ -2415,6 +2415,7 @@
     }
     .submit-btn {
       transition: all 0.2s;
+      width: 100%;
     }
     .submit-btn:hover {
       background-color: #1583be;
@@ -2442,6 +2443,7 @@
 
     .submit-btn {
       transition: all 0.2s;
+      width: 100%;
     }
     .submit-btn:hover {
       background-color: #1583be;
@@ -2537,9 +2539,7 @@
     .submit-btn {
       transition: all 0.2s;
       width: 100%;
-      @media (min-width: 576px) {
-        width: 25%;
-      }
+    
     }
     .submit-btn:hover {
       background-color: #1583be;
