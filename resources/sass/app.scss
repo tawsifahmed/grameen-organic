@@ -2231,47 +2231,318 @@
       .card-text {
         font-size: 12px;
       }
-      .current-v-text{
+      .current-v-text {
         color: #838383;
       }
-      .current-v-amount{
-        color: #2C2C2C;
+      .current-v-amount {
+        color: #2c2c2c;
       }
     }
-    .funded { 
+    .funded {
       background: #a6f7e2;
       .amount-text {
         color: #77b900;
       }
     }
-    .earning{
-      background: #B79BFF;
+    .earning {
+      background: #b79bff;
     }
-    .act-farm{
-      background: #FFE5A5;
+    .act-farm {
+      background: #ffe5a5;
     }
-    .mat-farm{
-      background: #C7FFA5;
+    .mat-farm {
+      background: #c7ffa5;
     }
   }
-  .dashboard-products{
-    p{
+  .dashboard-products {
+    p {
       margin-bottom: 0px !important;
     }
-    .product-list{
-      .product-card{
+    .product-list {
+      .product-card {
         border-radius: 8px;
-background: #EFE9FF;
-        .img-wrapper{
+        background: #efe9ff;
+        .img-wrapper {
           width: 83px;
           height: 83px;
-          background-color: #DEDEDE;
+          background-color: #dedede;
           border-radius: 10px;
         }
-        h5, h6{
+        h5,
+        h6 {
           margin-bottom: 0px !important;
         }
       }
+    }
+  }
+}
+
+//myAccount layout
+.my-profile-layout {
+  .com-layout {
+    .sideb {
+      .sidebar {
+        color: #fff;
+        width: 100%;
+      }
+
+      .sidebar ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      .sidebar li {
+        margin-bottom: 10px;
+        padding: 8px 16px;
+        border-radius: 50px;
+        word-break: keep-all;
+        font-size: 13x;
+
+        background-color: #d6d8db;
+        @media (min-width: 768px) {
+          width: 20%;
+        }
+
+        text-align: center;
+      }
+
+      .sidebar a {
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        font-weight: 600;
+      }
+
+      .sidebar a:hover {
+        color: #00bd6a;
+      }
+
+      .sidebar .active {
+        background: #efe9ff;
+
+        a {
+          color: #19aaf8;
+        }
+      }
+    }
+  }
+}
+
+// myAccount personal
+.account-personal {
+  form {
+    .signup-inputs {
+      label {
+        color: #8c98a9;
+      }
+      input {
+        width: 100%;
+        padding: 12px; /* Increased padding */
+        border: 1px solid #e0e6ff; /* Border color */
+        border-radius: 4px;
+        background-color: #f9faff; /* Background color */
+        margin-bottom: 8px;
+        box-sizing: border-box;
+      }
+    }
+    .nid-imgs {
+      .file-container {
+        display: inline-block;
+        margin-right: 20px;
+      }
+
+      .img-preview {
+        display: none;
+        width: 300px;
+        border: 2px dashed #333;
+        margin-bottom: 10px;
+      }
+
+      .img-preview img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .choose-file {
+        height: 0;
+        width: 0;
+        overflow: hidden;
+      }
+
+      .file-label {
+        font-family: sans-serif;
+        background: #19aaf8;
+        padding: 10px 10px;
+        width: 200px;
+        border-radius: 3px;
+        color: #fff;
+        cursor: pointer;
+        text-align: center;
+        transition: all 0.2s;
+      }
+
+      .file-label:hover {
+        background-color: #1583be;
+        shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      }
+    }
+    .gender-select-container {
+      .gender-select {
+        display: inline-block;
+        padding: 14px; /* Increased padding */
+        border: 1px solid #e0e6ff; /* Border color */
+        border-radius: 4px;
+        background-color: #f9faff; /* Background color */
+        width: 100%;
+        &::after {
+          content: "\f107"; /* Unicode character for a Font Awesome down arrow */
+          font-family: "Font Awesome 5 Free"; /* Font family for Font Awesome icons */
+          font-size: 12px;
+          color: #555;
+          position: absolute;
+          top: 50%;
+          right: 8px; /* Adjusted margin on the right side */
+          transform: translateY(-50%);
+          pointer-events: none; /* To ensure the arrow doesn't interfere with select events */
+        }
+      }
+    }
+    .dob-select-container {
+      input {
+        height: 50px;
+      }
+    }
+    .submit-btn {
+      transition: all 0.2s;
+    }
+    .submit-btn:hover {
+      background-color: #1583be;
+    }
+  }
+}
+
+// myAccount bank
+.account-bank {
+  form {
+    .signup-inputs {
+      label {
+        color: #8c98a9;
+      }
+      input {
+        width: 100%;
+        padding: 12px; /* Increased padding */
+        border: 1px solid #e0e6ff; /* Border color */
+        border-radius: 4px;
+        background-color: #f9faff; /* Background color */
+        margin-bottom: 8px;
+        box-sizing: border-box;
+      }
+    }
+
+    .submit-btn {
+      transition: all 0.2s;
+    }
+    .submit-btn:hover {
+      background-color: #1583be;
+    }
+  }
+}
+
+// myAccount nominee
+.account-nominee {
+  form {
+    .signup-inputs {
+      label {
+        color: #8c98a9;
+      }
+      input {
+        width: 100%;
+        padding: 12px; /* Increased padding */
+        border: 1px solid #e0e6ff; /* Border color */
+        border-radius: 4px;
+        background-color: #f9faff; /* Background color */
+        margin-bottom: 8px;
+        box-sizing: border-box;
+      }
+    }
+    .nid-imgs {
+      .file-container {
+        display: inline-block;
+        margin-right: 20px;
+      }
+
+      .img-preview {
+        display: none;
+        width: 300px;
+        border: 2px dashed #333;
+        margin-bottom: 10px;
+      }
+
+      .img-preview img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .choose-file {
+        height: 0;
+        width: 0;
+        overflow: hidden;
+      }
+
+      .file-label {
+        font-family: sans-serif;
+        background: #19aaf8;
+        padding: 10px 10px;
+        width: 200px;
+        border-radius: 3px;
+        color: #fff;
+        cursor: pointer;
+        text-align: center;
+        transition: all 0.2s;
+      }
+
+      .file-label:hover {
+        background-color: #1583be;
+        shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      }
+    }
+    .gender-select-container {
+      .gender-select {
+        display: inline-block;
+        padding: 14px; /* Increased padding */
+        border: 1px solid #e0e6ff; /* Border color */
+        border-radius: 4px;
+        background-color: #f9faff; /* Background color */
+        width: 100%;
+        &::after {
+          content: "\f107"; /* Unicode character for a Font Awesome down arrow */
+          font-family: "Font Awesome 5 Free"; /* Font family for Font Awesome icons */
+          font-size: 12px;
+          color: #555;
+          position: absolute;
+          top: 50%;
+          right: 8px; /* Adjusted margin on the right side */
+          transform: translateY(-50%);
+          pointer-events: none; /* To ensure the arrow doesn't interfere with select events */
+        }
+      }
+    }
+    .dob-select-container {
+      input {
+        height: 50px;
+      }
+    }
+    .submit-btn {
+      transition: all 0.2s;
+      width: 100%;
+      @media (min-width: 576px) {
+        width: 25%;
+      }
+    }
+    .submit-btn:hover {
+      background-color: #1583be;
     }
   }
 }

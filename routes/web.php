@@ -5,6 +5,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BookingController;
 use App\Http\Controllers\CrowdFundInvestorController;
+use App\Http\Controllers\AccountController;
 
 /*
 |--------------------------------------------------------------------------
@@ -53,3 +54,10 @@ Route::get('/bank-transfer', [BookingController::class, 'bankTransfer'])->name('
 Route::get('/booking-confirmation', [BookingController::class, 'bookingConfirmation'])->name('booking.confirmation');
 
 Route::get('/crowd-fund-investor-dashboard', [CrowdFundInvestorController::class, 'userCrowdFundDashboard'])->name('crowd.fund.investor');
+
+Route::get('/account/personal-information', [AccountController::class, 'personalInformation'])->name('account.personal');
+
+Route::get('/account/bank-information', [AccountController::class, 'bankInformation'])->name('account.bankInfo');
+
+Route::get('/account/nominee-information', [AccountController::class, 'nomineeInformation'])->name('account.nomineeInfo');
+

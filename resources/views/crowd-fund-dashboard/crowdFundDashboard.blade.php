@@ -1,6 +1,6 @@
 @extends('layouts.userCrowdFundDashboard')
 @section('content')
-    <div class="crowd-dashboard ms-md-3">
+    <div class="crowd-dashboard">
         <div class="row w-100 mx-auto my-0 dashboard-headers">
             <div class="col-md-6 col-xl-3 col-12 md-w-25 ">
                 <div class="d-card funded">
@@ -434,7 +434,7 @@
                     </div>
                 </div>
             </div>
-             <div class="col-lg-6 col-12 mt-3">
+             <div class="col-lg-6 col-12 mt-lg-0 mt-sm-4">
                 <div class="d-flex justify-content-between align-items-center headers">
                    
                       
