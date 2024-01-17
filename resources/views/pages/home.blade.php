@@ -42,8 +42,11 @@
                     enabling individuals to invest in farmers and agricultural products. </p>
                 <button class="banner-btn">Invest Now</button>
             </div>
-            <div class="bg-right">
-                <img class="img-fluid" src="{{ asset('assets/images/banners/bg-banners1.png') }}" alt="">
+            <div class="bg-right d-lg-block d-none">
+                <img class="img-fluid big-s" src="{{ asset('assets/images/banners/bg-banners1.png') }}" alt="">
+            </div>
+            <div class="bg-right d-lg-none">
+                <img class="img-fluid" src="{{ asset('assets/images/banners/bg-banners1-mbl.png') }}" alt="">
             </div>
 
         </div>
@@ -51,9 +54,35 @@
             <h3 class="text-center">A New Way To Invest In Agriculture Opportunities</h3>
             <p class="text-center">We are crowdfunding platform enabling you to help
                 providing agricultural input to our farmers. </p>
-            <div class="intro-two-cards d-flex align-items-center justify-content-center flex-wrap gap-5">
-                <div class="card-wrapper">
-                    <div class="card shadow">
+            <div class="intro-two-cards row">
+                <div class="card-wrapper col-md-4 col-12 d-flex">
+                    <svg class="d-sm-none" style="margin: -40px; margin-top: 100px;" xmlns="http://www.w3.org/2000/svg"
+                    width="600" height="247" viewBox="0 0 86 247" fill="none">
+                    <path
+                        d="M26.2276 174.233C31.6269 171.992 37.1809 170.143 42.8463 168.702C51.5335 166.488 57.2467 166.002 58.389 165.924C53.4867 178.573 45.998 192.863 34.5633 205.915L15.0085 207.933C15.0085 207.933 21.9027 213.033 25.2827 215.366C12.9137 226.618 -3.05573 236.212 -23.6511 241.923C-19.8784 236.66 7.73101 198.229 26.2276 174.233ZM-3.97324 187.992C-3.70614 189.699 -2.89186 194.7 -1.85307 199.198C-0.851786 203.544 -0.11084 206.116 0.160212 207.029C-11.3317 222.705 -21.3964 236.725 -24.2363 240.688C-22.8323 234.598 -16.8051 210.711 -3.97324 187.992ZM-0.717249 199.161C-1.99381 193.637 -2.91922 187.428 -2.9226 187.409L-3.3846 187.48C-0.250553 181.945 3.27909 176.644 7.17679 171.617C27.3606 145.835 58.411 133.215 65.8766 130.456C61.2834 134.32 44.9578 148.612 28.22 170.076C20.3423 180.177 10.3036 193.663 1.078 206.228C0.723467 204.989 0.0905457 202.655 -0.717249 199.161V199.161ZM28.9519 170.669C46.8813 147.73 64.3211 133.03 67.3108 130.574C66.9574 134.038 65.1839 148.142 58.5456 165.443L58.5241 164.984C58.5063 164.986 52.3777 165.302 42.5527 167.805C37.3831 169.125 32.3026 170.773 27.342 172.739C27.8866 172.035 28.4268 171.342 28.9519 170.669Z"
+                        fill="url(#paint0_radial_427_1948)" />
+                    <path
+                        d="M29.5111 112.507C52.962 130.463 17.3801 143.664 16.9841 168.576C16.5882 193.488 -40.6773 187.167 -40.6773 187.167C-40.6773 187.167 -28.0828 222.727 -32.5382 227.675C-36.9935 232.624 -54.6857 240.196 -76.3775 220.665C-98.0692 201.133 -74.8982 196.684 -74.8982 196.684C-74.8982 196.684 -46.459 163.145 -46.2149 149.606C-46.0797 142.109 -75.1412 -30.9323 0.658625 22.1417C76.4584 75.2156 6.06015 94.5514 29.5111 112.507Z"
+                        fill="url(#paint1_radial_427_1948)" />
+                    <defs>
+                        <radialGradient id="paint0_radial_427_1948" cx="0" cy="0" r="1"
+                            gradientUnits="userSpaceOnUse"
+                            gradientTransform="translate(49.0014 120.981) scale(75.618 92.0713)">
+                            <stop stop-color="#F7F7F7" />
+                            <stop offset="0.227" stop-color="#C3DEA5" />
+                            <stop offset="0.681" stop-color="#9EC872" />
+                            <stop offset="1" stop-color="#7CB342" />
+                        </radialGradient>
+                        <radialGradient id="paint1_radial_427_1948" cx="0" cy="0" r="1"
+                            gradientUnits="userSpaceOnUse"
+                            gradientTransform="translate(-23.9052 137.623) rotate(42) scale(59.6553 82.3897)">
+                            <stop stop-color="#43A047" />
+                            <stop offset="0.202" stop-color="#53AA57" />
+                            <stop offset="1" stop-color="#81C784" />
+                        </radialGradient>
+                    </defs>
+                </svg>
+                    <div class="card shadow mb-3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="93" height="77" viewBox="0 0 93 77"
                             fill="none">
                             <path
@@ -128,8 +157,8 @@
                             Join our crowdfunding campaign today.</h5>
                     </div>
                 </div>
-                <div class="card-wrapper">
-                    <div class="card-two shadow">
+                <div class="card-wrapper col-md-4 col-12 d-flex">
+                    <div class="card-two shadow mb-3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="96" height="41" viewBox="0 0 96 41"
                             fill="none">
                             <path d="M30 40V2H95V40H30Z" stroke="#D1EAD3" stroke-width="2" stroke-miterlimit="10" />
@@ -156,9 +185,61 @@
                             Let us help your business grow with
                             our agri investments.</h5>
                     </div>
+                    <svg class="d-sm-none" style=" margin-top: 100px;" xmlns="http://www.w3.org/2000/svg"
+                        width="400" height="247" viewBox="0 0 100 247" fill="none">
+                        <path
+                            d="M61.7487 174.233C56.1709 171.992 50.4333 170.143 44.5806 168.702C35.6062 166.488 29.7042 166.002 28.5241 165.924C33.5885 178.573 41.3248 192.863 53.1374 205.915L73.3387 207.933C73.3387 207.933 66.2166 213.033 62.7248 215.366C75.5027 226.618 92.0001 236.212 113.276 241.923C109.379 236.66 80.8567 198.229 61.7487 174.233ZM92.9479 187.992C92.672 189.699 91.8308 194.7 90.7577 199.198C89.7233 203.544 88.9578 206.116 88.6778 207.029C100.55 222.705 110.947 236.725 113.881 240.688C112.43 234.598 106.204 210.711 92.9479 187.992ZM89.5843 199.161C90.903 193.637 91.859 187.428 91.8625 187.409L92.3398 187.48C89.1022 181.945 85.4558 176.644 81.4293 171.617C60.5782 145.835 28.5014 133.215 20.789 130.456C25.534 134.32 42.3994 148.612 59.6904 170.076C67.8285 180.177 78.1991 193.663 87.7297 206.228C88.0959 204.989 88.7498 202.655 89.5843 199.161V199.161ZM58.9343 170.669C40.4122 147.73 22.3959 133.03 19.3073 130.574C19.6724 134.038 21.5046 148.142 28.3624 165.443L28.3845 164.984C28.4029 164.986 34.7342 165.302 44.8839 167.805C50.2244 169.125 55.4728 170.773 60.5975 172.739C60.0348 172.035 59.4768 171.342 58.9343 170.669Z"
+                            fill="url(#paint0_radial_428_2229)" />
+                        <path
+                            d="M58.3569 112.507C34.1307 130.463 70.8889 143.664 71.298 168.576C71.7071 193.488 130.866 187.168 130.866 187.168C130.866 187.168 117.855 222.727 122.457 227.675C127.06 232.624 145.337 240.196 167.746 220.665C190.155 201.133 166.218 196.684 166.218 196.684C166.218 196.684 136.838 163.145 136.586 149.606C136.447 142.109 166.469 -30.9323 88.1632 22.1417C9.85761 75.2156 82.5831 94.5514 58.3569 112.507Z"
+                            fill="url(#paint1_radial_428_2229)" />
+                        <defs>
+                            <radialGradient id="paint0_radial_428_2229" cx="0" cy="0" r="1"
+                                gradientUnits="userSpaceOnUse"
+                                gradientTransform="translate(38.222 120.981) rotate(180) scale(78.1177 92.0713)">
+                                <stop stop-color="#F7F7F7" />
+                                <stop offset="0.227" stop-color="#C3DEA5" />
+                                <stop offset="0.681" stop-color="#9EC872" />
+                                <stop offset="1" stop-color="#7CB342" />
+                            </radialGradient>
+                            <radialGradient id="paint1_radial_428_2229" cx="0" cy="0" r="1"
+                                gradientUnits="userSpaceOnUse"
+                                gradientTransform="translate(113.539 137.623) rotate(138.925) scale(60.7523 83.5764)">
+                                <stop stop-color="#43A047" />
+                                <stop offset="0.202" stop-color="#53AA57" />
+                                <stop offset="1" stop-color="#81C784" />
+                            </radialGradient>
+                        </defs>
+                    </svg>
                 </div>
-                <div class="card-wrapper">
-                    <div class="card shadow">
+                <div class="card-wrapper mx-0 col-md-4 col-12 d-flex" style="position: relative;">
+                    <svg class="d-sm-none" style="margin: -20px; margin-top: 100px;" xmlns="http://www.w3.org/2000/svg"
+                        width="600" height="247" viewBox="0 0 86 247" fill="none">
+                        <path
+                            d="M26.2276 174.233C31.6269 171.992 37.1809 170.143 42.8463 168.702C51.5335 166.488 57.2467 166.002 58.389 165.924C53.4867 178.573 45.998 192.863 34.5633 205.915L15.0085 207.933C15.0085 207.933 21.9027 213.033 25.2827 215.366C12.9137 226.618 -3.05573 236.212 -23.6511 241.923C-19.8784 236.66 7.73101 198.229 26.2276 174.233ZM-3.97324 187.992C-3.70614 189.699 -2.89186 194.7 -1.85307 199.198C-0.851786 203.544 -0.11084 206.116 0.160212 207.029C-11.3317 222.705 -21.3964 236.725 -24.2363 240.688C-22.8323 234.598 -16.8051 210.711 -3.97324 187.992ZM-0.717249 199.161C-1.99381 193.637 -2.91922 187.428 -2.9226 187.409L-3.3846 187.48C-0.250553 181.945 3.27909 176.644 7.17679 171.617C27.3606 145.835 58.411 133.215 65.8766 130.456C61.2834 134.32 44.9578 148.612 28.22 170.076C20.3423 180.177 10.3036 193.663 1.078 206.228C0.723467 204.989 0.0905457 202.655 -0.717249 199.161V199.161ZM28.9519 170.669C46.8813 147.73 64.3211 133.03 67.3108 130.574C66.9574 134.038 65.1839 148.142 58.5456 165.443L58.5241 164.984C58.5063 164.986 52.3777 165.302 42.5527 167.805C37.3831 169.125 32.3026 170.773 27.342 172.739C27.8866 172.035 28.4268 171.342 28.9519 170.669Z"
+                            fill="url(#paint0_radial_427_1948)" />
+                        <path
+                            d="M29.5111 112.507C52.962 130.463 17.3801 143.664 16.9841 168.576C16.5882 193.488 -40.6773 187.167 -40.6773 187.167C-40.6773 187.167 -28.0828 222.727 -32.5382 227.675C-36.9935 232.624 -54.6857 240.196 -76.3775 220.665C-98.0692 201.133 -74.8982 196.684 -74.8982 196.684C-74.8982 196.684 -46.459 163.145 -46.2149 149.606C-46.0797 142.109 -75.1412 -30.9323 0.658625 22.1417C76.4584 75.2156 6.06015 94.5514 29.5111 112.507Z"
+                            fill="url(#paint1_radial_427_1948)" />
+                        <defs>
+                            <radialGradient id="paint0_radial_427_1948" cx="0" cy="0" r="1"
+                                gradientUnits="userSpaceOnUse"
+                                gradientTransform="translate(49.0014 120.981) scale(75.618 92.0713)">
+                                <stop stop-color="#F7F7F7" />
+                                <stop offset="0.227" stop-color="#C3DEA5" />
+                                <stop offset="0.681" stop-color="#9EC872" />
+                                <stop offset="1" stop-color="#7CB342" />
+                            </radialGradient>
+                            <radialGradient id="paint1_radial_427_1948" cx="0" cy="0" r="1"
+                                gradientUnits="userSpaceOnUse"
+                                gradientTransform="translate(-23.9052 137.623) rotate(42) scale(59.6553 82.3897)">
+                                <stop stop-color="#43A047" />
+                                <stop offset="0.202" stop-color="#53AA57" />
+                                <stop offset="1" stop-color="#81C784" />
+                            </radialGradient>
+                        </defs>
+                    </svg>
+                    <div class="card shadow mb-3">
                         <svg xmlns="http://www.w3.org/2000/svg" width="93" height="77" viewBox="0 0 93 77"
                             fill="none">
                             <path
@@ -227,7 +308,7 @@
                                     stroke-linejoin="round" />
                             </g>
                         </svg>
-                        <h4>Social Impact Invesment</h4>
+                        <h4 class="">Social Impact Invesment</h4>
                         <h5>Invest in agri with social impact. Grow
                             your business while making a positive
                             difference in the world. Join us today.</h5>
@@ -261,7 +342,7 @@
                                 </h2>
                                 <p>Invest in farms that will be ready for harvest in 03-08 months</p>
                                 <button class="rounded">
-                                    <a href="{{route('short.term')}}">Browse Farm</a>
+                                    <a href="{{ route('short.term') }}">Browse Farm</a>
                                 </button>
                         </div>
                     </div>
@@ -279,7 +360,7 @@
                                     Investment</h2>
                                 <p>Consider farms that have long term investment program with higher return</p>
                                 <button class="rounded">
-                                    <a href="{{route('long.term')}}">Browse Farm</a>
+                                    <a href="{{ route('long.term') }}">Browse Farm</a>
                                 </button>
                         </div>
                     </div>
@@ -293,11 +374,11 @@
                                         d="M2.06963 0.676514H64.0398C64.4963 0.676514 64.9342 0.857874 65.257 1.1807C65.5798 1.50352 65.7612 1.94136 65.7612 2.39791V4.1193C65.7612 4.57584 65.5798 5.01368 65.257 5.33651C64.9342 5.65933 64.4963 5.84069 64.0398 5.84069H2.06963C1.61309 5.84069 1.17524 5.65933 0.85242 5.33651C0.529597 5.01368 0.348236 4.57584 0.348236 4.1193V2.39791C0.348236 1.94136 0.529597 1.50352 0.85242 1.1807C1.17524 0.857874 1.61309 0.676514 2.06963 0.676514Z"
                                         fill="white" />
                                 </svg>
-                                <h2>Seasonal 
+                                <h2>Seasonal
                                     Investment</h2>
                                 <p>Invest in farms that will be ready for harvest in 03- 06 Months </p>
                                 <button class="rounded">
-                                    <a href="{{route('seasonal.investment')}}">Browse Farm</a>
+                                    <a href="{{ route('seasonal.investment') }}">Browse Farm</a>
                                 </button>
                         </div>
                     </div>
@@ -312,10 +393,10 @@
                                         fill="white" />
                                 </svg>
                                 <h2>Agri Trade
-                                    investment</h2> 
+                                    investment</h2>
                                 <p>Consider farms that have long term investment program. </p>
                                 <button class="rounded">
-                                    <a href="{{route('agri.investment')}}">Browse Farm</a>
+                                    <a href="{{ route('agri.investment') }}">Browse Farm</a>
                                 </button>
                         </div>
                     </div>
@@ -336,7 +417,7 @@
                 are saying about Grameen Organic</p>
         </div>
         <div class="caros">
-            <div id="myCarousel" class="carousel slide position-relative" data-bs-ride="carousel">
+            <div id="myCarousel" class="carousel slide " data-bs-ride="carousel">
                 <div class="carousel-inner w-100">
                     <div class="carousel-item active">
                         <div class="col-md-3">
@@ -467,12 +548,14 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                </button>
+                <div class="position-relative caro-btn-wrapper">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
             </div>
         </div>
         <div class="container home-intro-six">
@@ -495,27 +578,20 @@
                             <img class="img-fluid" src="{{ asset('assets/images/logos/sponsor-logo2.png') }}">
                             <img class="img-fluid" src="{{ asset('assets/images/logos/sponsor-logo3.png') }}">
                         </div>
-
-
                     </div>
                     <div class="carousel-item ">
-
                         <div class="d-flex justify-content-around align-items-center">
                             <img class="img-fluid" src="{{ asset('assets/images/logos/sponsor-logo1.png') }}">
                             <img class="img-fluid" src="{{ asset('assets/images/logos/sponsor-logo2.png') }}">
                             <img class="img-fluid" src="{{ asset('assets/images/logos/sponsor-logo3.png') }}">
                         </div>
-
-
                     </div>
                     <div class="carousel-item ">
-
                         <div class="d-flex justify-content-around align-items-center">
                             <img class="img-fluid" src="{{ asset('assets/images/logos/sponsor-logo1.png') }}">
                             <img class="img-fluid" src="{{ asset('assets/images/logos/sponsor-logo2.png') }}">
                             <img class="img-fluid" src="{{ asset('assets/images/logos/sponsor-logo3.png') }}">
                         </div>
-
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -543,7 +619,7 @@
             <div class="subscribe-wrapper d-flex justify-content-center">
                 <form class="center">
                     <button type="button">Subscribe!</button>
-                    <input placeholder="Enter your email address"></input>
+                    <input placeholder="Your email">
                 </form>
             </div>
             <div class="stories-wrapper d-flex flex-column align-items-center justify-content-center">
@@ -558,50 +634,50 @@
                 </svg>
                 <h1>Read Our Stories</h1>
                 <div class="py-5 stories-wrapper">
-                   
-                        <div class="row hidden-md-up">
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <div class="card-block">
-                                        <h4 class="card-title">Blog Post One</h4>
-                                        <h6 class="card-subtitle text-muted">Lorem ipsum dolor sit amet, </h6>
-                                        <button>Read More</button>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="51" height="3"
-                                            viewBox="0 0 51 3" fill="none">
-                                            <path d="M0 1.11914H50.586" stroke="white" stroke-width="2" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <div class="card-block">
-                                        <h4 class="card-title">Blog Post Two</h4>
-                                        <h6 class="card-subtitle text-muted">Lorem ipsum dolor sit amet, </h6>
-                                        <button>Read More</button>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="51" height="3"
-                                            viewBox="0 0 51 3" fill="none">
-                                            <path d="M0 1.11914H50.586" stroke="white" stroke-width="2" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <div class="card-block">
-                                        <h4 class="card-title">Blog Post Three</h4>
-                                        <h6 class="card-subtitle text-muted">Lorem ipsum dolor sit amet, </h6>
-                                        <button>Read More</button>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="51" height="3"
-                                            viewBox="0 0 51 3" fill="none">
-                                            <path d="M0 1.11914H50.586" stroke="white" stroke-width="2" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><br>
 
-                   
+                    <div class="row hidden-md-up">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-block">
+                                    <h4 class="card-title">Blog Post One</h4>
+                                    <h6 class="card-subtitle text-muted">Lorem ipsum dolor sit amet, </h6>
+                                    <button>Read More</button>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="51" height="3"
+                                        viewBox="0 0 51 3" fill="none">
+                                        <path d="M0 1.11914H50.586" stroke="white" stroke-width="2" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-block">
+                                    <h4 class="card-title">Blog Post Two</h4>
+                                    <h6 class="card-subtitle text-muted">Lorem ipsum dolor sit amet, </h6>
+                                    <button>Read More</button>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="51" height="3"
+                                        viewBox="0 0 51 3" fill="none">
+                                        <path d="M0 1.11914H50.586" stroke="white" stroke-width="2" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-block">
+                                    <h4 class="card-title">Blog Post Three</h4>
+                                    <h6 class="card-subtitle text-muted">Lorem ipsum dolor sit amet, </h6>
+                                    <button>Read More</button>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="51" height="3"
+                                        viewBox="0 0 51 3" fill="none">
+                                        <path d="M0 1.11914H50.586" stroke="white" stroke-width="2" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div><br>
+
+
                 </div>
 
             </div>

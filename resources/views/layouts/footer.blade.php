@@ -5,12 +5,6 @@
                 <img src="{{ asset('assets/images/logos/brand-logo-2-footer.svg') }}" alt="logo">
                 <p>Small Description</p>
             </div>
-            <div class="copyright d-flex flex-column">
-                <svg xmlns="http://www.w3.org/2000/svg" width="81" height="2" viewBox="0 0 81 2" fill="none">
-                    <path d="M0 1H81" stroke="#00DBD0" stroke-width="2" />
-                </svg>
-                <p>© Copyright 2020 Grameen Organic</p>
-            </div>
         </div>
         <div class="mid-footer">
             <h4>Information</h4>
@@ -86,6 +80,12 @@
             <p>Location</p>
             <p class="country-location">Bangladesh</p>
             </div>
+        </div>
+        <div class="copyright d-flex flex-column w-100">
+            <svg xmlns="http://www.w3.org/2000/svg" width="81" height="2" viewBox="0 0 81 2" fill="none">
+                <path d="M0 1H81" stroke="#00DBD0" stroke-width="2" />
+            </svg>
+            <p class="text-white">© Copyright 2020 Grameen Organic</p>
         </div>
     </div>
 </div>

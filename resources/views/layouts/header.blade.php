@@ -1,27 +1,49 @@
-<div class="container nav d-flex justify-content-between align-items-start">
+<div class="container nav d-flex flex-nowrap justify-content-between align-items-start ps-2 ps-sm-0">
     <div class="left-part">
         <div class="lang-selector">
-            <select name="format" id="format">
+            <select name="format" id="format" class="fs-6">
                 <option value="English">English(US) </option>
                 <option value="Espaniol">Espaniol</option>
             </select>
         </div>
-        <a href="{{route('home')}}" class="brand-logo-wrapper cursor-pointer">
+        <a href="{{route('home')}}" class="brand-logo-wrapper cursor-pointer d-lg-block d-none">
             <img class="img-fluid" width="274" height="126px" src="{{ asset('assets/images/logos/brand-logo-1.png') }}" alt="">
         </a>
-    </div>
-    <div class="mid-n-right-part d-flex align-items-center justify-content-between">
-        <div class="mid-part">
-            <a href="{{ route('fund.farmer') }}">Fund Farmer</a>
-            <a href="{{ route('our.impact') }}">Our Solutions</a>
-            <a href="{{ route('our.impact') }}">Our Impact</a>
+        <div class="d-lg-none d-flex align-items-center gap-1">
+            <a href="{{route('home')}}" class="brand-logo-wrapper cursor-pointer d-lg-none">
+                <img class="mt-2" style="width: 84px; height: 38px;" src="{{ asset('assets/images/logos/brand-logo-1.png') }}" alt="">
+            </a>
+
+            {{-- mbl menu dropdown icon--}}
+            <div class="dropdown">
+                <svg class=" dropdown-toggle mt-2" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"  xmlns="http://www.w3.org/2000/svg" width="20" height="14" viewBox="0 0 20 14" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1 0C0.447715 0 0 0.447715 0 1C0 1.55228 0.447715 2 1 2H19C19.5523 2 20 1.55228 20 1C20 0.447715 19.5523 0 19 0H1ZM0 7C0 6.44772 0.447715 6 1 6H14C14.5523 6 15 6.44772 15 7C15 7.55228 14.5523 8 14 8H1C0.447715 8 0 7.55228 0 7ZM0 13C0 12.4477 0.447715 12 1 12H17C17.5523 12 18 12.4477 18 13C18 13.5523 17.5523 14 17 14H1C0.447715 14 0 13.5523 0 13Z" fill="#00BD6A"/>
+                </svg>
+             
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Fund Farmers</a></li>
+                  <li><a class="dropdown-item" href="#">Our Solutions</a></li>
+                  <li><a class="dropdown-item" href="#">Our Impact</a></li>
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><a class="dropdown-item" href="#">My account</a></li>
+                </ul>
+              </div>
         </div>
-        <div class="right-part d-flex justify-content-between align-items-center">
-            <div class="notification-icon-wrapper">
-                <img src="{{ asset('assets/images/icons/notification.svg') }}" alt="">
-            </div>
-            <div class="user-logo-wrapper">
-                <img src="{{ asset('assets/images/users/demo-user.svg') }}" alt="">
+    </div>
+    <div class="mid-n-right-part gap-5 d-flex align-items-center justify-content-between">
+        <div class="mid-part d-lg-block d-none">
+            <a class="me-3 fs-5" href="{{ route('fund.farmer') }}">Fund Farmer</a>
+            <a class="me-3 fs-5" href="{{ route('our.impact') }}">Our Solutions</a>
+            <a class="fs-5" href="{{ route('our.impact') }}">Our Impact</a>
+        </div>
+        <div class="right-part d-flex flex-md-nowrap flex-wrap gap-xl-4 gap-md-3 gap-0 justify-content-end align-items-center ">
+            <div class="d-flex align-items-center gap-3 justify-content-between">
+                <div class="notification-icon-wrapper">
+                    <img src="{{ asset('assets/images/icons/notification.svg') }}" alt="">
+                </div>
+                <div class="user-logo-wrapper">
+                    <img src="{{ asset('assets/images/users/demo-user.svg') }}" alt="">
+                </div>
             </div>
             <div class="login-signup">
                 <a href="{{ route('login') }}" class="login-btn d-flex align-items-center">
@@ -33,8 +55,6 @@
                             stroke-linejoin="round" />
                     </svg>
                     <p class="text-white">Sign In</p>
-
-
                 </a>
                 <a href="{{ route('create.account') }}" class="signup-btn d-flex align-items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
