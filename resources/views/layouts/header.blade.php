@@ -36,8 +36,8 @@
             <a class="me-3 fs-5" href="{{ route('our.impact') }}">Our Solutions</a>
             <a class="fs-5" href="{{ route('our.impact') }}">Our Impact</a>
         </div>
-        <div class="right-part d-flex flex-md-nowrap flex-wrap gap-xl-4 gap-md-3 gap-0 justify-content-end align-items-center ">
-            <div class="d-flex align-items-center gap-3 justify-content-between">
+        <div class="right-part d-flex flex-column flex-lg-row gap-xl-4 gap-md-3 gap-0 justify-content-end align-items-center">
+            <div class="d-flex align-items-center align-self-end gap-3 justify-content-between">
                 <div class="notification-icon-wrapper">
                     <img src="{{ asset('assets/images/icons/notification.svg') }}" alt="">
                 </div>

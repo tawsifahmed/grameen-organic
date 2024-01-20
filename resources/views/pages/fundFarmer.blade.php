@@ -34,17 +34,20 @@
                     </defs>
                 </svg>
             </div>
-            <div class="mid-part">
+            <div class="mid-part mid-non-home">
                 <h3>  How we work</h3>
                 {{-- <h2>Grameen Organic</h2> --}}
-                <p>Our goal at Grameen Organic is to encourage community 
+                <p class="w-75">Our goal at Grameen Organic is to encourage community 
                     growth within the agriculture industry.  </p>
                 {{-- <button class="banner-btn">Invest Now</button> --}}
-                <img class="img-fluid" src="{{ asset('assets/images/banners/ff-how-we-work.svg') }}" alt="">
+                <img class="img-fluid h-w-w" src="{{ asset('assets/images/banners/ff-how-we-work.svg') }}" alt="">
                 
             </div>
-            <div class="bg-right">
-                <img class="img-fluid" src="{{ asset('assets/images/banners/fund-farmer-banner1.svg') }}" alt="">
+            <div class="bg-right d-lg-block d-none">
+                <img class="img-fluid big-s" src="{{ asset('assets/images/banners/fund-farmer-banner1.svg') }}" alt="">
+            </div>
+            <div class="bg-right d-lg-none">
+                <img class="img-fluid" src="{{ asset('assets/images/banners/fund-farmer-banner1-mbl.png') }}" alt="">
             </div>
 
         </div>
@@ -237,7 +240,7 @@
             </div>
         </div> --}}
 
-        <div class="container home-intro-three" style="margin-top: -290px;">
+        <div class="container home-intro-three" style="margin-top: -370px;">
             <h1>
                 Invest on your convenience
             </h1>

@@ -619,7 +619,7 @@
             <div class="subscribe-wrapper d-flex justify-content-center">
                 <form class="center">
                     <button type="button">Subscribe!</button>
-                    <input placeholder="Your email">
+                    <input placeholder="Your email address">
                 </form>
             </div>
             <div class="stories-wrapper d-flex flex-column align-items-center justify-content-center">
