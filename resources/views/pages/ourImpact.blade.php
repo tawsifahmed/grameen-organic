@@ -17,7 +17,7 @@
                         </radialGradient>
                     </defs>
                 </svg>
-                <svg class="second-leaf" xmlns="http://www.w3.org/2000/svg" width="168" height="396"
+                <svg class="second-leaf d-none" xmlns="http://www.w3.org/2000/svg" width="168" height="396"
                     viewBox="0 0 168 396" fill="none">
                     <path
                         d="M22.0789 155.736C41.2219 147.791 60.9134 141.238 80.9999 136.128C111.8 128.278 132.056 126.556 136.106 126.277C118.725 171.124 92.1739 221.789 51.6329 268.066L-17.6981 275.22C-17.6981 275.22 6.74489 293.3 18.7289 301.574C-25.1251 341.466 -81.7441 375.481 -154.764 395.728C-141.388 377.07 -43.5001 240.814 22.0789 155.736ZM-84.9971 204.52C-84.0501 210.571 -81.1631 228.301 -77.4801 244.251C-73.9301 259.657 -71.3031 268.779 -70.3421 272.013C-111.086 327.593 -146.77 377.299 -156.839 391.351C-151.861 369.76 -130.492 285.07 -84.9971 204.52ZM-73.4531 244.12C-77.9791 224.533 -81.2601 202.52 -81.2721 202.452L-82.9101 202.704C-71.7985 183.08 -59.2843 164.284 -45.4651 146.463C26.0959 55.0527 136.184 10.3087 162.653 0.52771C146.368 14.2277 88.4859 64.8977 29.1429 140.998C1.21289 176.81 -34.3791 224.626 -67.0881 269.174C-68.3451 264.781 -70.5891 256.507 -73.4531 244.118V244.12ZM31.7379 143.102C95.3059 61.7717 157.138 9.65471 167.738 0.94671C166.485 13.2277 160.197 63.2337 136.661 124.572L136.585 122.946C136.522 122.952 114.793 124.072 79.9589 132.946C61.6302 137.629 43.6176 143.471 26.0299 150.439C27.9609 147.944 29.8759 145.488 31.7379 143.102Z"
@@ -37,14 +37,18 @@
             <div class="mid-part">
 
             </div>
-            <div class="bg-right">
+            <div class="bg-right d-lg-block d-none">
                 <img class="img-fluid" style="margin-top: -70px;"
                     src="{{ asset('assets/images/banners/our-impact-bg.png') }}" alt="">
+            </div>
+            <div class="bg-right d-lg-none">
+                <img class="img-fluid"
+                    src="{{ asset('assets/images/banners/our-impact-bg-mbl.png') }}" alt="">
             </div>
 
         </div>
         <div class="container home-intro-three" style="margin-top: -320px;">
-            <div class="d-flex  justify-content-between">
+            <div class="d-none d-md-flex justify-content-between">
                 <h1 class="fs-1">
                     Farmer Story
                 </h1>
@@ -55,7 +59,7 @@
                     Impact Map
                 </h1>
             </div>
-            <div class="farmer-story">
+            <div class="farmer-story impact-mbl">
                 <h1>Farmer Story
                 </h1>
                 <p>At our core, we believe in the power of smallholder farmers to create a
@@ -69,24 +73,24 @@
                     Join us in championing smallholder farmers and
                     building a brighter future for all. One farmer at a time, we can make a difference.
                 </p>
-                <div class="container-fluid  mt-4">
-                    <iframe class="w-100" height="515"
+                <div class="container-fluid mt-4">
+                    <iframe class="w-75 mx-auto my-0 d-flex justify-content-center" height="515"
                         src="https://www.youtube.com/embed/J3pF2jkQ4vc?si=dHX4e4qb8GEpFYR6" title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
-                    <div class="d-flex justify-content-between align-items-center mt-3 gap-4">
-                        <iframe width="560" height="315"
+                    <div class="d-flex w-75 flex-wrap mx-auto my-0 flex-column flex-lg-row justify-content-center align-items-center mt-3 gap-2">
+                        <iframe class="img-fluid"
                             src="https://www.youtube.com/embed/J3pF2jkQ4vc?si=dHX4e4qb8GEpFYR6" title="YouTube video player"
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowfullscreen></iframe>
-                        <iframe width="560" height="315"
+                        <iframe class="img-fluid"
                             src="https://www.youtube.com/embed/J3pF2jkQ4vc?si=dHX4e4qb8GEpFYR6" title="YouTube video player"
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowfullscreen></iframe>
-                        <iframe width="560" height="315"
+                        <iframe class="img-fluid"
                             src="https://www.youtube.com/embed/J3pF2jkQ4vc?si=dHX4e4qb8GEpFYR6" title="YouTube video player"
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -95,7 +99,7 @@
 
                 </div>
             </div>
-            <div class="farmer-story mt-5 pt-4 d-flex flex-column">
+            <div class="farmer-story impact-mbl mt-5 pt-4 d-flex flex-column">
                 <h1>Partner Story</h1>
                 <p>
                     Our ambitious goal is to create a self-sufficient Bangladesh that not only feeds its
@@ -113,19 +117,62 @@
                     Would you like to become a partner in our mission? Thus far, we have already
                     collaborated with:
                 </p>
-                <img class="img-fluid my-4 align-self-center" src="{{ asset('assets/images/banners/partners-bg.svg') }}" alt="">
+                {{-- <img class="img-fluid my-4 align-self-center" src="{{ asset('assets/images/banners/partners-bg.svg') }}" alt=""> --}}
 
 
             </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-around align-items-center">
+                            <img class="img-fluid" src="{{ asset('assets/images/logos/sponsor-logo1.png') }}">
+                            <img class="img-fluid" src="{{ asset('assets/images/logos/sponsor-logo2.png') }}">
+                            <img class="img-fluid" src="{{ asset('assets/images/logos/sponsor-logo3.png') }}">
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="d-flex justify-content-around align-items-center">
+                            <img class="img-fluid" src="{{ asset('assets/images/logos/sponsor-logo1.png') }}">
+                            <img class="img-fluid" src="{{ asset('assets/images/logos/sponsor-logo2.png') }}">
+                            <img class="img-fluid" src="{{ asset('assets/images/logos/sponsor-logo3.png') }}">
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="d-flex justify-content-around align-items-center">
+                            <img class="img-fluid" src="{{ asset('assets/images/logos/sponsor-logo1.png') }}">
+                            <img class="img-fluid" src="{{ asset('assets/images/logos/sponsor-logo2.png') }}">
+                            <img class="img-fluid" src="{{ asset('assets/images/logos/sponsor-logo3.png') }}">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
             <div class="farmer-story mt-5 pt-4 d-flex flex-column">
                 <h1>Impact Map</h1>
-                <div class="d-flex flex-wrap align-items-start gap-5">
+                <div class="d-flex flex-wrap justify-content-center align-items-start gap-5">
 
                     <img class="img-fluid my-3 align-self-center" src="{{ asset('assets/images/banners/bd-map.svg') }}" alt="">
                     <img class="img-fluid my-3 align-self-center" src="{{ asset('assets/images/banners/impact-location.svg') }}" alt="">
                 </div>
                 <h1>Impact Map</h1>
-                <div class="d-flex flex-wrap align-items-start gap-5">
+                <div class="d-flex flex-wrap justify-content-center align-items-start gap-5">
 
                     <img class="img-fluid my-3 align-self-center" src="{{ asset('assets/images/banners/bd-map.svg') }}" alt="">
                     <img class="img-fluid my-3 align-self-center" width="626" height="856" src="{{ asset('assets/images/banners/impact-sdg.png') }}" alt="">
@@ -133,7 +180,7 @@
 
 
             </div>
-            <div class="farmer-story my-5 py-4 d-flex flex-column">
+            <div class="farmer-story impact-mbl my-5 py-4 d-flex flex-column">
                 <h1 class="text-start">Education
                 </h1>
                 <p class="fw-light text-start">Quality education is the key to genuine development and empowerment, which 

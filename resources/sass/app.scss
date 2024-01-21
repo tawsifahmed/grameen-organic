@@ -336,7 +336,19 @@
       }
     }
     margin-top: 110px;
+    .impact-mbl{
+      @media(max-width: 768px){
+        background-color: #00BD6A;
+        padding: 20px;
+        border-radius: 5px;
+    }
+    }
     .farmer-story {
+      // @media(max-width: 768px){
+      //   h1{
+      //     font-size: 14px !important;
+      //   }
+      // }
       .inv-cards {
         .load-more-btn {
           a {
@@ -380,6 +392,11 @@
         color: #000;
         font-family: Inter;
         font-size: 50px;
+        @media(max-width: 768px){
+          font-size: 28px !important;
+          
+          text-align: left !important;
+      }
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -391,11 +408,37 @@
         text-align: center;
         font-family: Roboto;
         font-size: 36px;
+        @media(max-width: 768px){
+          font-size: 14px !important;
+          text-align: left !important;
+      }
         font-style: normal;
         font-weight: 400;
         line-height: normal;
       }
     }
+
+      #carouselExampleIndicators{
+        .carousel-indicators {
+          gap: 10px;
+          button {
+            background-color: #374b5c !important;
+            width: 12.5px;
+            height: 12.5px;
+            flex-shrink: 0;
+            border-radius: 50%;
+          }
+          .active {
+            background-color: #00dbd0 !important;
+          }
+        }
+        .carousel-item {
+          div {
+            height: 316px;
+          }
+        }
+      }
+ 
     h1 {
       color: #000;
       font-size: 48px;
