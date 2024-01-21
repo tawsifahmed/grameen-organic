@@ -1,28 +1,21 @@
 @extends('layouts.authMaster')
 
-<div class="signup-wrapper container w-100 h-100 d-flex flex-column justify-content-center align-items-center">
-    <div class="w-100">
-        <div class="lang-selector position-absolute" style="top: 10%; right: 10%;">
-            <select name="format" id="format" class="selectpicker" data-width="fit">
-                <option value="English">English(US) </option>
-                <option value="Espaniol">Espaniol</option>
-            </select>
-        </div>
-    </div>
-    <div class="signup w-50 d-flex flex-column align-items-center justify-content-center">
+<div class="signup-wrapper container w-100 d-flex flex-column justify-content-center align-items-center">
+    
+    <div class="signup auth-w-lg d-flex flex-column align-items-center justify-content-center">
         <img src="{{ asset('assets/images/logos/brand-logo-3.svg') }}" alt="">
         <p class="login-brief fs-2 text-start">Sign up </p>
 
-        <div class="signup-inputs w-75">
+        <div class="signup-inputs auth-w-lg">
             <figure class="tabBlock">
-                <ul class="tabBlock-tabs d-flex justify-content-center">
+                <ul class="tabBlock-tabs d-flex justify-content-center gap-2">
                     <li class="tabBlock-tab is-active w-50 text-center email-tab">Personal Info</li>
                     <li class="tabBlock-tab w-50 text-center ph-tab">Account Details</li>
                 </ul>
                 <div class="tabBlock-content">
                     <div class="tabBlock-pane">
                         <div class="d-flex justify-content-center align-items-center flex-column">
-                            <form class="signup-forms" style="width: 383px;">
+                            <form class="signup-forms auth-w-lg">
                                 <div class="signup-inputs mb-3">
                                     <label class="fs-6">Full Name</label>
                                     <input class="form-control py-4" type="text" placeholder="Full Name" required
@@ -56,7 +49,7 @@
                     </div>
                     <div class="tabBlock-pane">
                         <div class="d-flex justify-content-center align-items-center flex-column">
-                            <form class="signup-forms" style="width: 383px;">
+                            <form class="signup-forms auth-w-lg">
                                 <div class="signup-inputs mb-3">
                                     <label class="fs-6">Email ID</label>
                                     <input class="form-control py-4" type="email" placeholder="Email Address" required

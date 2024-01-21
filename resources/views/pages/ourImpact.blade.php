@@ -47,7 +47,7 @@
             </div>
 
         </div>
-        <div class="container home-intro-three" style="margin-top: -320px;">
+        <div class="container home-intro-three impact-intro-three" style="margin-top: -320px;">
             <div class="d-none d-md-flex justify-content-between">
                 <h1 class="fs-1">
                     Farmer Story
@@ -74,7 +74,7 @@
                     building a brighter future for all. One farmer at a time, we can make a difference.
                 </p>
                 <div class="container-fluid mt-4">
-                    <iframe class="w-75 mx-auto my-0 d-flex justify-content-center" height="515"
+                    <iframe class="w-75 md-h-25 mx-auto my-0 d-flex justify-content-center" height="515"
                         src="https://www.youtube.com/embed/J3pF2jkQ4vc?si=dHX4e4qb8GEpFYR6" title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

@@ -86,7 +86,7 @@
         display: flex;
         justify-content: space-between;
         gap: 8px;
-        @media(max-width: 321px){
+        @media (max-width: 321px) {
           gap: 4px;
         }
         @media (max-width: 1199px) {
@@ -224,13 +224,13 @@
       }
     }
 
-    .mid-non-home{
-      .h-w-w{
+    .mid-non-home {
+      .h-w-w {
         padding-right: 22px;
       }
-      @media(max-width: 500px){
+      @media (max-width: 500px) {
         margin-top: 100px;
-        p{
+        p {
           width: 80% !important;
         }
       }
@@ -264,7 +264,6 @@
 
     .intro-two-cards {
       .card-wrapper {
-
         .card {
           height: 389px;
           padding: 50px 50px;
@@ -273,7 +272,6 @@
             margin-bottom: 26.22px;
           }
           h4 {
-            
             color: #263238;
             font-size: 18px;
             font-style: normal;
@@ -281,16 +279,15 @@
             line-height: normal;
           }
           h3 {
-            
             color: #263238;
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
           }
-          h5{
-            @media(max-width: 992px){
-              font-size: .9rem;
+          h5 {
+            @media (max-width: 992px) {
+              font-size: 0.9rem;
             }
           }
         }
@@ -318,9 +315,9 @@
             font-weight: 400;
             line-height: normal;
           }
-          h5{
-            @media(max-width: 992px){
-              font-size: .9rem;
+          h5 {
+            @media (max-width: 992px) {
+              font-size: 0.9rem;
             }
           }
         }
@@ -329,19 +326,19 @@
   }
 
   .home-intro-three {
-    @media(max-width: 768px){
-      h1{
+    @media (max-width: 768px) {
+      h1 {
         text-align: center;
         margin-bottom: 25px !important;
       }
     }
     margin-top: 110px;
-    .impact-mbl{
-      @media(max-width: 768px){
-        background-color: #00BD6A;
-        padding: 20px;
-        border-radius: 5px;
-    }
+    .impact-mbl {
+      @media (max-width: 768px) {
+        background-color: #00bd6a;
+        padding: 25px;
+        border-radius: 15px;
+      }
     }
     .farmer-story {
       // @media(max-width: 768px){
@@ -350,6 +347,13 @@
       //   }
       // }
       .inv-cards {
+        @media(max-width: 384px){
+          p, a{
+          
+            font-size: 9px !important;
+          }
+            
+        }
         .load-more-btn {
           a {
             text-decoration: none !important;
@@ -392,11 +396,11 @@
         color: #000;
         font-family: Inter;
         font-size: 50px;
-        @media(max-width: 768px){
+        @media (max-width: 768px) {
           font-size: 28px !important;
-          
+
           text-align: left !important;
-      }
+        }
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -408,37 +412,37 @@
         text-align: center;
         font-family: Roboto;
         font-size: 36px;
-        @media(max-width: 768px){
+        @media (max-width: 768px) {
           font-size: 14px !important;
           text-align: left !important;
-      }
+        }
         font-style: normal;
         font-weight: 400;
         line-height: normal;
       }
     }
 
-      #carouselExampleIndicators{
-        .carousel-indicators {
-          gap: 10px;
-          button {
-            background-color: #374b5c !important;
-            width: 12.5px;
-            height: 12.5px;
-            flex-shrink: 0;
-            border-radius: 50%;
-          }
-          .active {
-            background-color: #00dbd0 !important;
-          }
+    #carouselExampleIndicators {
+      .carousel-indicators {
+        gap: 10px;
+        button {
+          background-color: #374b5c !important;
+          width: 12.5px;
+          height: 12.5px;
+          flex-shrink: 0;
+          border-radius: 50%;
         }
-        .carousel-item {
-          div {
-            height: 316px;
-          }
+        .active {
+          background-color: #00dbd0 !important;
         }
       }
- 
+      .carousel-item {
+        div {
+          height: 316px;
+        }
+      }
+    }
+
     h1 {
       color: #000;
       font-size: 48px;
@@ -502,7 +506,7 @@
           line-height: normal;
           word-break: keep-all;
           width: 80%;
-          @media(min-width: 995px){
+          @media (min-width: 995px) {
             width: 50%;
           }
         }
@@ -526,6 +530,34 @@
       }
     }
   }
+
+  .impact-intro-three, .farms-intro-three {
+    @media (max-width: 630px) and (min-width: 510px) {
+      margin-top: -460px !important;
+    }
+    @media (max-width: 509px) and (min-width: 450px) {
+      margin-top: -530px !important;
+    }
+    @media (max-width: 430px) and (min-width: 375px) {
+      margin-top: -632px !important;
+    }
+    @media (max-width: 374px) and (min-width: 310px) {
+      margin-top: -700px !important;
+    }
+  }
+
+  .farms-intro-three {
+    @media (max-width: 630px) and (min-width: 510px) {
+      margin-top: -460px !important;
+    }
+    @media (max-width: 509px) and (min-width: 450px) {
+      margin-top: -530px !important;
+    }
+    @media (max-width: 430px) {
+      margin-top: -752px !important;
+    }
+  }
+
   .home-intro-four {
     margin-top: 80px;
   }
@@ -533,7 +565,7 @@
     margin-top: 100px;
     margin-right: 30px;
     margin-bottom: 29px;
-    @media(max-width: 768px){
+    @media (max-width: 768px) {
       margin-bottom: 0px;
     }
     p {
@@ -541,7 +573,7 @@
       color: #000;
       font-family: Raleway;
       font-size: 36px;
-      @media(max-width: 768px){
+      @media (max-width: 768px) {
         font-size: 24px;
       }
       font-style: normal;
@@ -551,12 +583,12 @@
     }
   }
 
-  @media(max-width: 768px){
-    .caros{
+  @media (max-width: 768px) {
+    .caros {
       display: flex;
       justify-content: center;
       margin: 0 auto;
-      .card{
+      .card {
         width: 100%;
       }
     }
@@ -564,8 +596,7 @@
   .caros {
     #myCarousel {
     }
-    .caro-btn-wrapper{
-      
+    .caro-btn-wrapper {
       .carousel-control-prev {
         position: absolute;
         top: 99px;
@@ -578,7 +609,7 @@
           height: 60px;
         }
       }
-      
+
       .carousel-control-next {
         position: absolute;
         top: 99px;
@@ -591,7 +622,7 @@
           height: 60px;
         }
       }
-      
+
       @media (max-width: 768px) {
         .carousel-control-prev {
           left: 40%;
@@ -730,7 +761,7 @@
     }
     .btn-wrapper {
       margin-bottom: 119px;
-      @media(max-width: 768px){
+      @media (max-width: 768px) {
         margin-bottom: 60px;
       }
       button {
@@ -744,7 +775,7 @@
         font-weight: 400;
         line-height: normal;
         padding: 25px 62px;
-        @media(max-width: 768px){
+        @media (max-width: 768px) {
           padding: 15px 52px;
           font-size: 24px;
         }
@@ -770,7 +801,7 @@
     .subscribe-wrapper {
       margin-top: 91px;
       margin-bottom: 117px;
-      @media(max-width: 768px){
+      @media (max-width: 768px) {
         margin-top: 60px;
         margin-bottom: 60px;
       }
@@ -809,7 +840,7 @@
       input {
         font-size: inherit;
         // width: 400px;
-        @media(max-width: 768px){
+        @media (max-width: 768px) {
           width: 165px;
         }
 
@@ -836,7 +867,7 @@
         font-size: inherit;
         float: right;
         padding: 16px 29px;
-        @media(max-width: 768px){
+        @media (max-width: 768px) {
           padding: 16px 13px;
         }
         margin-left: 2px;
@@ -871,7 +902,6 @@
           padding: 275px 46px 21px 46px;
           @media (max-width: 768px) {
             padding: 75px 46px 21px 46px;
-            
           }
           border-radius: 10px;
           h4 {
@@ -934,13 +964,12 @@
           line-height: normal;
         }
       }
-      
     }
     .mid-footer {
       h4 {
         color: #fff;
         font-size: 24px;
-        @media (max-width: 768px) {   
+        @media (max-width: 768px) {
           font-size: 20px;
         }
         font-style: normal;
@@ -1043,7 +1072,7 @@
       p {
         color: #fff;
         font-size: 20px;
-        @media (max-width: 768px) {  
+        @media (max-width: 768px) {
           font-size: 16px;
         }
         font-style: normal;
@@ -1089,6 +1118,7 @@
     }
   }
   .sign-in {
+    width: 50%;
     .login-brief {
       margin-top: 30px;
       color: #616161;
@@ -1134,6 +1164,7 @@
       }
     }
     .login-inputs {
+      width: 85%;
       .group::after,
       .tabBlock-tabs::after {
         clear: both;
@@ -1198,7 +1229,7 @@
         display: inline-block;
         font-weight: 600;
         float: left;
-        padding: 0.625rem 1.25rem;
+        padding: 0.625rem 0.25rem;
         position: relative;
         -webkit-transition: 0.1s ease-in-out;
         transition: 0.1s ease-in-out;
@@ -1240,8 +1271,8 @@
       }
       @media screen and (min-width: 700px) {
         .tabBlock-tab {
-          padding-left: 2.5rem;
-          padding-right: 2.5rem;
+          // padding-left: 2.5rem;
+          // padding-right: 2.5rem;
         }
       }
       .tabBlock-tab.is-active {
@@ -1285,6 +1316,7 @@
           }
         }
         .login-forms {
+          width: 383px;
           .forgot-pass {
             width: 100%;
             text-align: right;
@@ -1322,6 +1354,7 @@
     }
   }
 }
+
 
 //create-acc
 .createacc-wrapper {
@@ -1421,7 +1454,7 @@
     .create-login-btns-wrapper {
       .create-btn {
         background-color: #00bd6a;
-        padding: 21px 110px;
+        padding: 21px 90px;
         color: rgba(255, 255, 255, 0.87);
         font-size: 19px;
         font-style: normal;
@@ -1432,7 +1465,7 @@
       }
       .login-btn {
         background-color: white;
-        padding: 21px 154px;
+        padding: 21px 133px;
         color: black;
         font-size: 19px;
         font-style: normal;
@@ -1500,6 +1533,7 @@
     }
   }
   .signup {
+    width: 50%;
     .login-brief {
       margin-top: 30px;
       color: #616161;
@@ -1512,7 +1546,7 @@
     .login-lang {
       .login-acc {
         color: #000;
-        font-size: 20px;
+        font-size: 17.5px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -1595,7 +1629,7 @@
         font-weight: 600;
         float: left;
         text-align: left;
-        padding: 0.625rem 1.25rem;
+        padding: 0.625rem 0.25rem;
         position: relative;
         -webkit-transition: 0.1s ease-in-out;
         transition: 0.1s ease-in-out;
@@ -1632,8 +1666,8 @@
       }
       @media screen and (min-width: 700px) {
         .tabBlock-tab {
-          padding-left: 2.5rem;
-          padding-right: 2.5rem;
+          // padding-left: 2.5rem;
+          // padding-right: 2.5rem;
         }
       }
       .tabBlock-tab.is-active {
@@ -1683,6 +1717,7 @@
           }
         }
         .signup-forms {
+          width: 383px;
           .signup-inputs {
             label {
               color: #8c98a9;

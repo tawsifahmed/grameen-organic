@@ -1,13 +1,8 @@
 @extends('layouts.authMaster')
 
-<div class="createacc-wrapper container w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+<div class="createacc-wrapper container w-100 d-flex flex-column justify-content-center align-items-center">
     <div class="w-100">
-        <div class="lang-selector position-absolute" style="top: 10%; right: 10%;">
-            <select name="format" id="format" class="selectpicker" data-width="fit">
-                <option value="English">English(US) </option>
-                <option value="Espaniol">Espaniol</option>
-            </select>
-        </div>
+       
     </div>
     <div class="create-acc d-flex flex-column align-items-center justify-content-center">
         <img src="{{ asset('assets/images/logos/brand-logo-3.svg') }}" alt="">

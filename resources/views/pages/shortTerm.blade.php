@@ -37,13 +37,16 @@
             <div class="mid-part">
 
             </div>
-            <div class="bg-right">
+            <div class="bg-right d-lg-block d-none">
                 <img class="img-fluid" style="margin-top: -70px;"
                     src="{{ asset('assets/images/banners/our-impact-bg.png') }}" alt="">
             </div>
+            <div class="bg-right d-lg-none">
+                <img class="img-fluid" src="{{ asset('assets/images/banners/our-impact-bg-mbl.png') }}" alt="">
+            </div>
 
         </div>
-        <div class="container home-intro-three" style="margin-top: -320px;">
+        <div class="container home-intro-three farms-intro-three" style="margin-top: -320px;">
             <div class="farmer-story">
                 <h1 class="text-start fw-light fs-1">Farmer Story
                 </h1>
@@ -58,18 +61,19 @@
                                         src="{{ asset('assets/images/banners/inv-cards.png') }}" alt="Card image cap">
                                 </div>
                                 <div class="card-body d-flex justify-content-between">
-                                  <div>
-                                    <p class="fs-4 fw-light text-start">Project ID: XXXXXXXXXX </p>
-                                    <p class="fs-6 fw-light text-start">Remaining Share: 000</p>
-                                    <p class="fs-6 fw-light text-start">Maximum: 2 Share(s)/ Booking</p>
-                                    <p class="fs-6 fw-light text-start">Location: Dhaka</p>
-                                  </div>
-                                  <div>
-                                    <p class="fs-6 fw-light text-end">BDT 30,000/Share </p>
-                                    <p class="fs-6 fw-light text-end">Earning: 6%- 8%</p>
-                                    <p class="fs-6 fw-light text-end">Duration: 8 months</p>
-                                  <a class="fs-6 fw-light text-end float-end px-4 py-1 rounded" href="">Book Now</a>
-                                  </div>
+                                    <div>
+                                        <p class="fs-4 fw-light text-start">Project ID: XXXXXXXXXX </p>
+                                        <p class="fs-6 fw-light text-start">Remaining Share: 000</p>
+                                        <p class="fs-6 fw-light text-start">Maximum: 2 Share(s)/ Booking</p>
+                                        <p class="fs-6 fw-light text-start">Location: Dhaka</p>
+                                    </div>
+                                    <div>
+                                        <p class="fs-6 fw-light text-end">BDT 30,000/Share </p>
+                                        <p class="fs-6 fw-light text-end">Earning: 6%- 8%</p>
+                                        <p class="fs-6 fw-light text-end">Duration: 8 months</p>
+                                        <a class="fs-6 fw-light text-end float-end px-3 py-1 rounded" href="">Book
+                                            Now</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -80,18 +84,19 @@
                                         src="{{ asset('assets/images/banners/inv-cards.png') }}" alt="Card image cap">
                                 </div>
                                 <div class="card-body d-flex justify-content-between">
-                                  <div>
-                                    <p class="fs-4 fw-light text-start">Project ID: XXXXXXXXXX </p>
-                                    <p class="fs-6 fw-light text-start">Remaining Share: 000</p>
-                                    <p class="fs-6 fw-light text-start">Maximum: 2 Share(s)/ Booking</p>
-                                    <p class="fs-6 fw-light text-start">Location: Dhaka</p>
-                                  </div>
-                                  <div>
-                                    <p class="fs-6 fw-light text-end">BDT 30,000/Share </p>
-                                    <p class="fs-6 fw-light text-end">Earning: 6%- 8%</p>
-                                    <p class="fs-6 fw-light text-end">Duration: 8 months</p>
-                                  <a class="fs-6 fw-light text-end float-end px-4 py-1 rounded" href="">Book Now</a>
-                                  </div>
+                                    <div>
+                                        <p class="fs-4 fw-light text-start">Project ID: XXXXXXXXXX </p>
+                                        <p class="fs-6 fw-light text-start">Remaining Share: 000</p>
+                                        <p class="fs-6 fw-light text-start">Maximum: 2 Share(s)/ Booking</p>
+                                        <p class="fs-6 fw-light text-start">Location: Dhaka</p>
+                                    </div>
+                                    <div>
+                                        <p class="fs-6 fw-light text-end">BDT 30,000/Share </p>
+                                        <p class="fs-6 fw-light text-end">Earning: 6%- 8%</p>
+                                        <p class="fs-6 fw-light text-end">Duration: 8 months</p>
+                                        <a class="fs-6 fw-light text-end float-end px-3 py-1 rounded" href="">Book
+                                            Now</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -102,18 +107,19 @@
                                         src="{{ asset('assets/images/banners/inv-cards.png') }}" alt="Card image cap">
                                 </div>
                                 <div class="card-body d-flex justify-content-between">
-                                  <div>
-                                    <p class="fs-4 fw-light text-start">Project ID: XXXXXXXXXX </p>
-                                    <p class="fs-6 fw-light text-start">Remaining Share: 000</p>
-                                    <p class="fs-6 fw-light text-start">Maximum: 2 Share(s)/ Booking</p>
-                                    <p class="fs-6 fw-light text-start">Location: Dhaka</p>
-                                  </div>
-                                  <div>
-                                    <p class="fs-6 fw-light text-end">BDT 30,000/Share </p>
-                                    <p class="fs-6 fw-light text-end">Earning: 6%- 8%</p>
-                                    <p class="fs-6 fw-light text-end">Duration: 8 months</p>
-                                  <a class="fs-6 fw-light text-end float-end px-4 py-1 rounded" href="">Book Now</a>
-                                  </div>
+                                    <div>
+                                        <p class="fs-4 fw-light text-start">Project ID: XXXXXXXXXX </p>
+                                        <p class="fs-6 fw-light text-start">Remaining Share: 000</p>
+                                        <p class="fs-6 fw-light text-start">Maximum: 2 Share(s)/ Booking</p>
+                                        <p class="fs-6 fw-light text-start">Location: Dhaka</p>
+                                    </div>
+                                    <div>
+                                        <p class="fs-6 fw-light text-end">BDT 30,000/Share </p>
+                                        <p class="fs-6 fw-light text-end">Earning: 6%- 8%</p>
+                                        <p class="fs-6 fw-light text-end">Duration: 8 months</p>
+                                        <a class="fs-6 fw-light text-end float-end px-3 py-1 rounded" href="">Book
+                                            Now</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -124,18 +130,19 @@
                                         src="{{ asset('assets/images/banners/inv-cards.png') }}" alt="Card image cap">
                                 </div>
                                 <div class="card-body d-flex justify-content-between">
-                                  <div>
-                                    <p class="fs-4 fw-light text-start">Project ID: XXXXXXXXXX </p>
-                                    <p class="fs-6 fw-light text-start">Remaining Share: 000</p>
-                                    <p class="fs-6 fw-light text-start">Maximum: 2 Share(s)/ Booking</p>
-                                    <p class="fs-6 fw-light text-start">Location: Dhaka</p>
-                                  </div>
-                                  <div>
-                                    <p class="fs-6 fw-light text-end">BDT 30,000/Share </p>
-                                    <p class="fs-6 fw-light text-end">Earning: 6%- 8%</p>
-                                    <p class="fs-6 fw-light text-end">Duration: 8 months</p>
-                                  <a class="fs-6 fw-light text-end float-end px-4 py-1 rounded" href="">Book Now</a>
-                                  </div>
+                                    <div>
+                                        <p class="fs-4 fw-light text-start">Project ID: XXXXXXXXXX </p>
+                                        <p class="fs-6 fw-light text-start">Remaining Share: 000</p>
+                                        <p class="fs-6 fw-light text-start">Maximum: 2 Share(s)/ Booking</p>
+                                        <p class="fs-6 fw-light text-start">Location: Dhaka</p>
+                                    </div>
+                                    <div>
+                                        <p class="fs-6 fw-light text-end">BDT 30,000/Share </p>
+                                        <p class="fs-6 fw-light text-end">Earning: 6%- 8%</p>
+                                        <p class="fs-6 fw-light text-end">Duration: 8 months</p>
+                                        <a class="fs-6 fw-light text-end float-end px-3 py-1 rounded" href="">Book
+                                            Now</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -146,18 +153,19 @@
                                         src="{{ asset('assets/images/banners/inv-cards.png') }}" alt="Card image cap">
                                 </div>
                                 <div class="card-body d-flex justify-content-between">
-                                  <div>
-                                    <p class="fs-4 fw-light text-start">Project ID: XXXXXXXXXX </p>
-                                    <p class="fs-6 fw-light text-start">Remaining Share: 000</p>
-                                    <p class="fs-6 fw-light text-start">Maximum: 2 Share(s)/ Booking</p>
-                                    <p class="fs-6 fw-light text-start">Location: Dhaka</p>
-                                  </div>
-                                  <div>
-                                    <p class="fs-6 fw-light text-end">BDT 30,000/Share </p>
-                                    <p class="fs-6 fw-light text-end">Earning: 6%- 8%</p>
-                                    <p class="fs-6 fw-light text-end">Duration: 8 months</p>
-                                  <a class="fs-6 fw-light text-end float-end px-4 py-1 rounded" href="">Book Now</a>
-                                  </div>
+                                    <div>
+                                        <p class="fs-4 fw-light text-start">Project ID: XXXXXXXXXX </p>
+                                        <p class="fs-6 fw-light text-start">Remaining Share: 000</p>
+                                        <p class="fs-6 fw-light text-start">Maximum: 2 Share(s)/ Booking</p>
+                                        <p class="fs-6 fw-light text-start">Location: Dhaka</p>
+                                    </div>
+                                    <div>
+                                        <p class="fs-6 fw-light text-end">BDT 30,000/Share </p>
+                                        <p class="fs-6 fw-light text-end">Earning: 6%- 8%</p>
+                                        <p class="fs-6 fw-light text-end">Duration: 8 months</p>
+                                        <a class="fs-6 fw-light text-end float-end px-3 py-1 rounded" href="">Book
+                                            Now</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -168,23 +176,24 @@
                                         src="{{ asset('assets/images/banners/inv-cards.png') }}" alt="Card image cap">
                                 </div>
                                 <div class="card-body d-flex justify-content-between">
-                                  <div>
-                                    <p class="fs-4 fw-light text-start">Project ID: XXXXXXXXXX </p>
-                                    <p class="fs-6 fw-light text-start">Remaining Share: 000</p>
-                                    <p class="fs-6 fw-light text-start">Maximum: 2 Share(s)/ Booking</p>
-                                    <p class="fs-6 fw-light text-start">Location: Dhaka</p>
-                                  </div>
-                                  <div>
-                                    <p class="fs-6 fw-light text-end">BDT 30,000/Share </p>
-                                    <p class="fs-6 fw-light text-end">Earning: 6%- 8%</p>
-                                    <p class="fs-6 fw-light text-end">Duration: 8 months</p>
-                                  <a class="fs-6 fw-light text-end float-end px-4 py-1 rounded" href="">Book Now</a>
-                                  </div>
+                                    <div>
+                                        <p class="fs-4 fw-light text-start">Project ID: XXXXXXXXXX </p>
+                                        <p class="fs-6 fw-light text-start">Remaining Share: 000</p>
+                                        <p class="fs-6 fw-light text-start">Maximum: 2 Share(s)/ Booking</p>
+                                        <p class="fs-6 fw-light text-start">Location: Dhaka</p>
+                                    </div>
+                                    <div>
+                                        <p class="fs-6 fw-light text-end">BDT 30,000/Share </p>
+                                        <p class="fs-6 fw-light text-end">Earning: 6%- 8%</p>
+                                        <p class="fs-6 fw-light text-end">Duration: 8 months</p>
+                                        <a class="fs-6 fw-light text-end float-end px-3 py-1 rounded" href="">Book
+                                            Now</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-12 load-more-btn d-flex justify-content-center  mt-3 mb-5">
-                          <a class="px-5 py-2 rounded" href="">Load More</a>
+                            <a class="px-5 py-2 rounded" href="">Load More</a>
                         </div>
                     </div>
 

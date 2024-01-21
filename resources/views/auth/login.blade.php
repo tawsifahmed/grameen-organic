@@ -2,15 +2,7 @@
 
 
 <div class="login-wrapper container w-100 d-flex flex-column justify-content-center align-items-center">
-    <div class="w-100">
-        <div class="lang-selector position-absolute" style="top: 10%; right: 10%;">
-            <select name="format" id="format" class="selectpicker" data-width="fit">
-                <option value="English">English(US) </option>
-                <option value="Espaniol">Espaniol</option>
-            </select>
-        </div>
-    </div>
-    <div class="sign-in w-50 d-flex flex-column align-items-center justify-content-center">
+    <div class="sign-in auth-w-lg d-flex flex-column align-items-center justify-content-center">
         <img src="{{ asset('assets/images/logos/brand-logo-3.svg') }}" alt="">
         <p class="login-brief">This is a secure system and you will need to provide your login details to access the
             site.</p>
@@ -30,7 +22,7 @@
                 </select>
             </div>
         </div>
-        <div class="login-inputs w-75">
+        <div class="login-inputs auth-w-lg  ">
             <figure class="tabBlock">
                 <ul class="tabBlock-tabs d-flex justify-content-center">
                     <li class="tabBlock-tab is-active w-50 text-center email-tab">Email</li>
@@ -39,7 +31,7 @@
                 <div class="tabBlock-content">
                     <div class="tabBlock-pane">
                         <div class="d-flex justify-content-center align-items-center flex-column">
-                            <form class="login-forms" style="width: 383px;">
+                            <form class="login-forms auth-w-lg  ">
                                 <p>
                                     <label class="sr-only" for="">Email Address</label>
                                     <input class="form-control py-4" type="email" placeholder="Email Address" required
@@ -100,7 +92,7 @@
                     </div>
                     <div class="tabBlock-pane">
                         <div class="d-flex justify-content-center align-items-center flex-column">
-                            <form class="" style="width: 383px;">
+                            <form class="login-forms auth-w-lg" >
                                 <p>
                                     <label class="sr-only" for="">Email Address</label>
                                     <input class="form-control py-4" type="number" placeholder="Enter Phone Number"
