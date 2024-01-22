@@ -10,14 +10,16 @@
 </head>
 
 <body class="crowd-investor-layout">
-    <div class="container nav d-flex justify-content-between align-items-start" style="margin-bottom: 32px">
+    <div class="container nav d-flex justify-content-between flex-column flex-md-row align-items-start px-3 px-md-0" style="margin-bottom: 32px">
         <div class="left-part">
-            <a href="{{ route('home') }}" class="brand-logo-wrapper cursor-pointer">
-                <img class="img-fluid" width="274" height="126px"
-                    src="{{ asset('assets/images/logos/brand-logo-1.png') }}" alt="">
+            <a href="{{route('home')}}" class="brand-logo-wrapper cursor-pointer d-lg-block d-none">
+                <img class="img-fluid" width="274" height="126px" src="{{ asset('assets/images/logos/brand-logo-1.png') }}" alt="">
+            </a>
+            <a href="{{route('home')}}" class="d-lg-none brand-logo-wrapper cursor-pointer d-lg-none">
+                <img style="width: 84px; height: 38px;" src="{{ asset('assets/images/logos/brand-logo-1.png') }}" alt="">
             </a>
         </div>
-        <div class="mid-n-right-part d-flex align-items-center justify-content-between">
+        <div class="mid-n-right-part d-flex align-items-center align-self-center justify-content-between gap-3">
             <div class="search-bar-wrapper">
                 <div id="searchUsers" class="instant-search">
                     <div class="instant-search__input-container">
@@ -34,7 +36,7 @@
                 </div>
             </div>
 
-            <div class="right-part d-flex justify-content-between align-items-center">
+            <div class="right-part d-flex justify-content-between align-items-center gap-2">
                 <div class="notification-icon-wrapper">
                     <img src="{{ asset('assets/images/icons/notification.svg') }}" alt="">
                 </div>

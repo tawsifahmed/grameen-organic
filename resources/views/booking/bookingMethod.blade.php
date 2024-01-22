@@ -3,10 +3,11 @@
 
 <div class="booking-wrapper">
     <div class="position-relative">
-        <img class="img-fluid position-absolute top-0 end-0" src="{{asset('assets/images/banners/booking-bg.svg')}}" alt="">
+        <img class="img-fluid position-absolute top-0 end-0 d-lg-block d-none" src="{{asset('assets/images/banners/booking-bg.svg')}}" alt="">
+        <img class="img-fluid position-absolute top-0 end-0 d-lg-none mt-2" src="{{asset('assets/images/banners/booking-bg-mbl.png')}}" alt="">
     </div>
-    <div class="container d-flex form-wrapper justify-content-start pt-5 p-3">
-        <form class="mb-0 text-black d-flex flex-column gap-4">
+    <div class="container-md d-flex form-wrapper justify-content-center justify-content-sm-start pt-5 p-3">
+        <form class="mb-0 text-black d-flex flex-column gap-md-4 gap-2">
             <h1>Booking Method</h1>
             <h2>Booked By</h2>
             <div class="d-flex justify-content-center mt-3">

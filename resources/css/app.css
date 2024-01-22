@@ -30,13 +30,19 @@
 }
 
 @media (max-width: 991px) {
-  .auth-w-md {
-    /* width: 100% !important; */
+  .booking-w-md {
+    width: 100% !important;
   }
 }
 
 @media(max-width: 500px) {
   .auth-w-sm {
+    width: 100% !important;
+  }
+}
+
+@media(max-width: 680px) {
+  .cheque-w-sm {
     width: 100% !important;
   }
 }

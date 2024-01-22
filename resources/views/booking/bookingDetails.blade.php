@@ -2,12 +2,12 @@
 @section('content')
     <div class="booking-details-wrapper">
         <div class="position-relative">
-            <img class="img-fluid position-absolute top-0 end-0" src="{{ asset('assets/images/banners/booking-bg.svg') }}"
-                alt="">
+            <img class="img-fluid position-absolute top-0 end-0 d-lg-block d-none" src="{{asset('assets/images/banners/booking-bg.svg')}}" alt="">
+            <img class="img-fluid position-absolute top-0 end-0 d-lg-none mt-2" src="{{asset('assets/images/banners/booking-bg-mbl.png')}}" alt="">
         </div>
-        <div class="container form-wrapper justify-content-start pt-5 p-3">
-            <form class="mb-0 text-black d-flex flex-column gap-4 w-50 px-3">
-                <div class="first-part d-flex justify-content-between align-items-center">
+        <div class="container-md form-wrapper justify-content-start pt-5 p-3">
+            <form class="mb-0 text-black d-flex flex-column gap-md-4 gap-2 booking-w-md px-md-3 px-0">
+                <div class="first-part d-flex justify-content-between">
                     <div class="d-flex gap-2">
                         <svg xmlns="http://www.w3.org/2000/svg" width="29" height="24" viewBox="0 0 29 24"
                             fill="none">
@@ -24,12 +24,12 @@
                         <button class="rmv-btn">Remove All</button>
                     </div>
                 </div>
-                <div class="second-part d-flex justify-content-between align-items-center">
+                <div class="second-part d-flex justify-content-between align-items-center gap-1">
                     <div class="product-brief d-flex align-items-center gap-2">
                         <div class="product-img-wrapper">
-                            <img src="" alt="">
+                            <img class="img-fluid" src="" alt="">
                         </div>
-                        <div>
+                        <div class="product-inf">
                             <h5>Project ID: XXXXX</h5>
                             <h6>Earning: 6%-8%</h6>
                             <h6>Duration: 8 months</h6>
@@ -59,7 +59,7 @@
                         </svg>
                     </div>
 
-                    <div>
+                    <div class="amount-section">
                         <b class="me-1">30000 BDT</b>
 
                         {{-- trash icon/btn --}}
@@ -77,15 +77,15 @@
 
                 <div class="third-part d-flex justify-content-between align-items-center ">
                     <div>
-                        <h4>Sub Total</h4>
-                        <h4>Discount</h4>
-                        <h4>Total Payable</h4>
+                        <h6>Sub Total</h6>
+                        <h6>Discount</h6>
+                        <h6>Total Payable</h6>
 
                     </div>
                     <div>
-                        <h4>30000 BDT</h4>
-                        <h4>500 BDT</h4>
-                        <h4>29500 BDT</h4>
+                        <h6>30000 BDT</h6>
+                        <h6>500 BDT</h6>
+                        <h6>29500 BDT</h6>
 
                     </div>
                 </div>

@@ -10,26 +10,12 @@
 </head>
 
 <body class="my-profile-layout">
-    <div class="container nav d-flex gap-5 align-items-end" style="margin-bottom: 32px">
-        <div class="left-part">
-            <a href="{{ route('home') }}" class="brand-logo-wrapper cursor-pointer">
-                <img class="img-fluid" width="274" height="126px"
-                    src="{{ asset('assets/images/logos/brand-logo-1.png') }}" alt="">
-            </a>
-        </div>
-        <div>
-            <div>
-                <h2>My Account</h2>
-            </div>
-
-           
-        </div>
-    </div>
-    <div class="container mx-auto my-0 com-layout">
+    @include('layouts.header') 
+    <div class="container mx-auto mb-0 mt-4 com-layout">
         <div class="row sideb">
             <div class="col-12">
                 <div class="sidebar">
-                    <ul class="d-flex align-items-center justify-content-evenly w-100">
+                    <ul class="d-flex align-items-center justify-content-evenly w-100 gap-2 gap-md-0">
                         <li class="{{ Request::is('account/personal-information') ? 'active' : '' }}">
                             <a class=""
                                 href="{{ route('account.personal') }}">

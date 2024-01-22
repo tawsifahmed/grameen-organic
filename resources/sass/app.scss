@@ -347,12 +347,11 @@
       //   }
       // }
       .inv-cards {
-        @media(max-width: 384px){
-          p, a{
-          
+        @media (max-width: 384px) {
+          p,
+          a {
             font-size: 9px !important;
           }
-            
         }
         .load-more-btn {
           a {
@@ -531,7 +530,8 @@
     }
   }
 
-  .impact-intro-three, .farms-intro-three {
+  .impact-intro-three,
+  .farms-intro-three {
     @media (max-width: 630px) and (min-width: 510px) {
       margin-top: -460px !important;
     }
@@ -1355,7 +1355,6 @@
   }
 }
 
-
 //create-acc
 .createacc-wrapper {
   .w-100 {
@@ -1914,10 +1913,29 @@
 //booking-method
 .booking-wrapper {
   form {
+    margin-top: 100px;
+    @media (max-width: 689px) and (min-width: 643px) {
+      margin-top: 210px;
+    }
+    @media (max-width: 642px) and (min-width: 576px) {
+      margin-top: 260px;
+    }
+    @media (max-width: 575px) {
+      margin-top: 380px;
+      h1 {
+        font-size: 36px !important;
+      }
+      h2 {
+        font-size: 28px !important;
+      }
+      .form-control {
+        font-size: 1.2rem !important;
+      }
+    }
     h1 {
       color: #3f4c58;
       font-family: Raleway;
-      font-size: 76px;
+      font-size: 46px;
       font-style: normal;
       font-weight: 500;
       line-height: normal;
@@ -1925,7 +1943,7 @@
     h2 {
       color: #3f4c58;
       font-family: Raleway;
-      font-size: 64px;
+      font-size: 34px;
       font-style: normal;
       font-weight: 500;
       line-height: normal;
@@ -1945,7 +1963,7 @@
 
     .form-control {
       font-family: system-ui, sans-serif;
-      font-size: 2rem;
+      font-size: 1.6rem;
       font-weight: bold;
       line-height: 1.1;
       display: grid;
@@ -2012,15 +2030,15 @@
     .next-btn {
       color: rgba(255, 255, 255, 0.87);
 
-      font-size: 27px;
+      font-size: 24px;
       font-style: normal;
       font-weight: 400;
       background-color: #00bd6a;
       line-height: normal;
-      padding: 27px 50px;
+      padding: 15px 50px;
       text-align: center;
       text-decoration: none;
-      width: 360px;
+      width: 290px;
       align-self: center;
       border-radius: 35px;
       border: none;
@@ -2033,7 +2051,32 @@
 .booking-details-wrapper {
   .form-wrapper {
     form {
+      width: 50%;
       margin-top: 50px;
+      @media (max-width: 991px) and (min-width: 768px) {
+        margin-top: 350px;
+      }
+
+      @media (max-width: 767px) {
+        margin-top: 390px;
+        .second-part {
+          .product-brief {
+            .product-inf {
+              h5 {
+                font-size: 0.8rem !important;
+              }
+              h6 {
+                font-size: 0.6rem !important;
+              }
+            }
+          }
+          .amount-section {
+            b {
+              font-size: 0.6rem !important;
+            }
+          }
+        }
+      }
       .first-part {
         .rmv-btn {
           color: #8998a8;
@@ -2062,15 +2105,15 @@
       }
       .next-btn {
         color: rgba(255, 255, 255, 0.87);
-        font-size: 27px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 400;
         background-color: #00bd6a;
         line-height: normal;
-        padding: 27px 50px;
+        padding: 15px 50px;
         text-align: center;
         text-decoration: none;
-        width: 360px;
+        width: 290px;
         align-self: center;
         border-radius: 35px;
         border: none;
@@ -2084,6 +2127,19 @@
 .cheque-info-wrapper {
   .form-wrapper {
     form {
+      width: 50%;
+      @media (max-width: 680px) {
+        margin-top: 400px;
+        .form-details-wrapper {
+          background-color: #00bd6a;
+          padding: 15px;
+          border-radius: 15px;
+        }
+
+        h1 {
+          color: white !important;
+        }
+      }
       .instruction-details {
         p {
           margin-bottom: 0px;
@@ -2143,16 +2199,15 @@
       }
       .next-btn {
         color: rgba(255, 255, 255, 0.87);
-
-        font-size: 27px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 400;
         background-color: #00bd6a;
         line-height: normal;
-        padding: 27px 50px;
+        padding: 15px 50px;
         text-align: center;
         text-decoration: none;
-        width: 360px;
+        width: 290px;
         align-self: center;
         border-radius: 35px;
         border: none;
@@ -2166,6 +2221,22 @@
 .bank-transfer-info-wrapper {
   .form-wrapper {
     form {
+      width: 50%;
+      @media (max-width: 680px) {
+        margin-top: 400px;
+        .form-details-wrapper {
+          background-color: #00bd6a;
+          padding: 15px;
+          border-radius: 15px;
+        }
+
+        h1 {
+          color: white !important;
+        }
+        p{
+          font-weight: normal !important;
+        }
+      }
       .instruction-details {
         p {
           font-weight: 800;
@@ -2225,16 +2296,15 @@
       }
       .next-btn {
         color: rgba(255, 255, 255, 0.87);
-
-        font-size: 27px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 400;
         background-color: #00bd6a;
         line-height: normal;
-        padding: 27px 50px;
+        padding: 15px 50px;
         text-align: center;
         text-decoration: none;
-        width: 360px;
+        width: 290px;
         align-self: center;
         border-radius: 35px;
         border: none;
@@ -2248,6 +2318,22 @@
 .booking-confirmation-info-wrapper {
   .form-wrapper {
     form {
+      width: 50%;
+      @media (max-width: 680px) {
+        margin-top: 400px;
+        .form-details-wrapper {
+          background-color: #00bd6a;
+          padding: 15px;
+          border-radius: 15px;
+        }
+
+        h1 {
+          color: white !important;
+        }
+        p{
+          font-weight: normal !important;
+        }
+      }
       margin-top: 50px;
       .congratulation-text {
         font-weight: 800;
@@ -2259,16 +2345,16 @@
       }
       .next-btn {
         color: rgba(255, 255, 255, 0.87);
-        cursor: pointer;
-        font-size: 27px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 400;
+        cursor: pointer;
         background-color: #00bd6a;
         line-height: normal;
-        padding: 27px 50px;
+        padding: 15px 50px;
         text-align: center;
         text-decoration: none;
-        width: 360px;
+        width: 290px;
         align-self: center;
         border-radius: 35px;
         border: none;
@@ -2538,7 +2624,6 @@
         border-radius: 50px;
         word-break: keep-all;
         font-size: 13x;
-
         background-color: #d6d8db;
         @media (min-width: 768px) {
           width: 20%;
@@ -2563,6 +2648,18 @@
 
         a {
           color: #19aaf8;
+        }
+      }
+
+      @media(max-width: 767px){
+        .sidebar li{
+          padding: 0px;
+          border-radius: 0px;
+          border-bottom: 2px solid #b4e2fd;
+          background: none !important;
+        }.sidebar .active {
+          background: none !important;
+          border-bottom: 2px solid #19AAF8;
         }
       }
     }

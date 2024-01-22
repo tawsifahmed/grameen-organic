@@ -10,14 +10,17 @@
 </head>
 
 <body>
-    <div class="container nav d-flex justify-content-between align-items-start">
+    <div class="container nav d-flex justify-content-between align-items-start px-4 px-md-0">
         <div class="left-part">
-            <a href="{{route('home')}}" class="brand-logo-wrapper cursor-pointer">
+            <a href="{{route('home')}}" class="brand-logo-wrapper cursor-pointer d-lg-block d-none">
                 <img class="img-fluid" width="274" height="126px" src="{{ asset('assets/images/logos/brand-logo-1.png') }}" alt="">
+            </a>
+            <a href="{{route('home')}}" class="d-lg-none brand-logo-wrapper cursor-pointer d-lg-none">
+                <img class="mt-2" style="width: 84px; height: 38px;" src="{{ asset('assets/images/logos/brand-logo-1.png') }}" alt="">
             </a>
         </div>
         <div class="mid-n-right-part d-flex align-items-center justify-content-between">
-            <div class="right-part d-flex justify-content-between align-items-center">
+            <div class="right-part d-flex justify-content-between align-items-center gap-3">
                 <div class="notification-icon-wrapper">
                     <img src="{{ asset('assets/images/icons/notification.svg') }}" alt="">
                 </div>
