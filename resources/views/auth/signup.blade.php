@@ -6,7 +6,7 @@
         <img src="{{ asset('assets/images/logos/brand-logo-3.svg') }}" alt="">
         <p class="login-brief fs-2 text-start">Sign up </p>
 
-        <div class="signup-inputs auth-w-lg">
+        <div class="input-wrapper auth-w-lg">
             <figure class="tabBlock">
                 <ul class="tabBlock-tabs d-flex justify-content-center gap-2">
                     <li class="tabBlock-tab is-active w-50 text-center email-tab">Personal Info</li>
@@ -16,12 +16,12 @@
                     <div class="tabBlock-pane">
                         <div class="d-flex justify-content-center align-items-center flex-column">
                             <form class="signup-forms auth-w-lg">
-                                <div class="signup-inputs mb-3">
+                                <div class="input-wrapper mb-3">
                                     <label class="fs-6">Full Name</label>
                                     <input class="form-control py-4" type="text" placeholder="Full Name" required
                                         autofocus>
                                 </div>
-                                <div class="d-flex mb-3 flex-column signup-inputs gender-select-container">
+                                <div class="d-flex mb-3 flex-column input-wrapper gender-select-container">
                                     <label class="fs-6">Gender</label>
                                     <select name="format" id="format" class="gender-select" data-width="fit">
                                         <option value="0">Male</option>
@@ -29,12 +29,12 @@
                                         <option value="2">Other</option>
                                     </select>
                                 </div>
-                                <div class="d-flex flex-column signup-inputs dob-select-container">
+                                <div class="d-flex flex-column input-wrapper dob-select-container">
                                     <label class="fs-6">Date of Birth</label>
                                     <input type="date" class="form-control" id="exampleInputDOB1"
                                         placeholder="Date of Birth">
                                 </div>
-                                <div class="signup-inputs mb-3">
+                                <div class="input-wrapper mb-3">
                                     <label class="fs-6">How did you here about us? <span
                                             class="text-danger fs-3">*</span> </label>
                                     <input class="form-control py-4" type="email"
@@ -50,12 +50,12 @@
                     <div class="tabBlock-pane">
                         <div class="d-flex justify-content-center align-items-center flex-column">
                             <form class="signup-forms auth-w-lg">
-                                <div class="signup-inputs mb-3">
+                                <div class="input-wrapper mb-3">
                                     <label class="fs-6">Email ID</label>
                                     <input class="form-control py-4" type="email" placeholder="Email Address" required
                                         autofocus>
                                 </div>
-                                <div class="signup-inputs mb-3 position-relative">
+                                <div class="input-wrapper mb-3 position-relative">
                                     <label class="fs-6">Create New Password</label>
                                     <input class="form-control py-4" type="password" placeholder="Create Password" required
                                         autofocus>
@@ -64,12 +64,12 @@
                                             <path d="M8.11996 0.556724L5.67139 3.20496L30.1757 26.251L32.6242 23.6028L8.11996 0.556724Z" fill="#D3DBF8"/>
                                           </svg>
                                 </div>
-                                <div class="signup-inputs mb-3">
+                                <div class="input-wrapper mb-3">
                                     <label class="fs-6">Phone Number</label>
                                     <input class="form-control py-4" type="number" placeholder="01710 XXX XXX" required
                                         autofocus>
                                 </div>
-                                <div class="signup-inputs mb-3">
+                                <div class="input-wrapper mb-3">
                                     <label class="fs-6">NID Number</label>
                                     <input class="form-control py-4" type="number" placeholder="810 XXX XXX" required
                                         autofocus>

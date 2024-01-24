@@ -1559,7 +1559,7 @@
         line-height: normal;
       }
     }
-    .signup-inputs {
+    .input-wrapper {
       .group::after,
       .tabBlock-tabs::after {
         clear: both;
@@ -1717,7 +1717,7 @@
         }
         .signup-forms {
           width: 383px;
-          .signup-inputs {
+          .input-wrapper {
             label {
               color: #8c98a9;
             }
@@ -2669,7 +2669,7 @@
 // myAccount personal
 .account-personal {
   form {
-    .signup-inputs {
+    .input-wrapper {
       label {
         color: #8c98a9;
       }
@@ -2764,7 +2764,7 @@
 // myAccount bank
 .account-bank {
   form {
-    .signup-inputs {
+    .input-wrapper {
       label {
         color: #8c98a9;
       }
@@ -2792,7 +2792,7 @@
 // myAccount nominee
 .account-nominee {
   form {
-    .signup-inputs {
+    .input-wrapper {
       label {
         color: #8c98a9;
       }
@@ -2889,7 +2889,7 @@
 // farmer registration
 .farmer-reg {
   form {
-    .signup-inputs {
+    .input-wrapper {
       label {
         color: #8c98a9;
       }
@@ -2984,7 +2984,17 @@
 //community -inventory
 .inv-community {
   form {
-    .signup-inputs {
+
+    .location-setup{
+      width: 75%;
+      border: 1px dotted black;
+      padding: 10px;
+    }
+    .farmer-group-setup{
+      border: 1px dotted black;
+      padding: 10px;
+    }
+    .input-wrapper {
       label {
         color: #8c98a9;
       }

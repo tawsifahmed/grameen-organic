@@ -2,11 +2,11 @@
 @section('content')
     <div class="account-nominee container mb-5">
         <form style="w-100">
-            <div class="signup-inputs mb-3 w-sm-25 ">
+            <div class="input-wrapper mb-3 w-sm-25 ">
                 <label class="fs-6">Nominee Name</label>
                 <input class="form-control" type="text" placeholder="Provide nominee name" required autofocus>
             </div>
-            <div class="w-sm-25 d-flex mb-3 flex-column signup-inputs gender-select-container">
+            <div class="w-sm-25 d-flex mb-3 flex-column input-wrapper gender-select-container">
                 <label class="fs-6">Gender</label>
                 <select name="format" id="format" class="gender-select" data-width="fit">
                     <option value="0">Male</option>
@@ -14,17 +14,17 @@
                     <option value="2">Other</option>
                 </select>
             </div>
-            <div class="signup-inputs mb-3 w-sm-25 ">
+            <div class="input-wrapper mb-3 w-sm-25 ">
                 <label class="fs-6">Relationship</label>
                 <input class="form-control" type="text" placeholder="wife / husband / son" required autofocus>
             </div>
 
-            <div class="signup-inputs mb-3 w-sm-25">
+            <div class="input-wrapper mb-3 w-sm-25">
                 <label class="fs-6">Phone Number</label>
                 <input class="form-control" type="number" placeholder="+880 1XXX XXX" required autofocus>
             </div>
 
-            <div class="signup-inputs mb-3 w-sm-25">
+            <div class="input-wrapper mb-3 w-sm-25">
                 <label class="fs-6">NID No / Passport No</label>
                 <input class="form-control" type="number" placeholder="00 XXXXXXXX" required autofocus>
             </div>

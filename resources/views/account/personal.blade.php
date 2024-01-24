@@ -2,11 +2,11 @@
 @section('content')
     <div class="account-personal container mb-5">
         <form style="w-100">
-            <div class="signup-inputs mb-3 w-sm-25 ">
+            <div class="input-wrapper mb-3 w-sm-25 ">
                 <label class="fs-6">Full Name</label>
                 <input class="form-control" type="text" placeholder="Full Name" required autofocus>
             </div>
-            <div class="signup-inputs mb-3 w-sm-25">
+            <div class="input-wrapper mb-3 w-sm-25">
                 <label class="fs-6">NID No / Passport No</label>
                 <input class="form-control" type="number" placeholder="00 XXXXXXXX" required autofocus>
             </div>
@@ -29,11 +29,11 @@
                 </div>
             </div>
 
-            <div class="w-sm-25 d-flex flex-column signup-inputs dob-select-container">
+            <div class="w-sm-25 d-flex flex-column input-wrapper dob-select-container">
                 <label class="fs-6">Date of Birth</label>
                 <input type="date" class="form-control" id="exampleInputDOB1" placeholder="Date of Birth">
             </div>
-            <div class="w-sm-25 d-flex mb-3 flex-column signup-inputs gender-select-container">
+            <div class="w-sm-25 d-flex mb-3 flex-column input-wrapper gender-select-container">
                 <label class="fs-6">Gender</label>
                 <select name="format" id="format" class="gender-select" data-width="fit">
                     <option value="0">Male</option>
@@ -42,12 +42,12 @@
                 </select>
             </div>
 
-            <div class="signup-inputs mb-3 w-sm-25">
+            <div class="input-wrapper mb-3 w-sm-25">
                 <label class="fs-6">Email ID</label>
                 <input class="form-control" type="email" placeholder="xyz@gmail.com" required autofocus>
                 <p class="text-danger fs-6 -mt-2">Please enter you email address</p>
             </div>
-            <div class="signup-inputs mb-3 w-sm-25">
+            <div class="input-wrapper mb-3 w-sm-25">
                 <label class="fs-6">Phone Number</label>
                 <input class="form-control" type="number" placeholder="+880 1XXX XXX" required autofocus>
             </div>

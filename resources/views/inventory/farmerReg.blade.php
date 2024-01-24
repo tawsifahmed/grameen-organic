@@ -2,11 +2,11 @@
 @section('content')
     <div class="farmer-reg container mb-5">
         <form style="w-100">
-            <div class="signup-inputs mb-3 w-sm-25 ">
+            <div class="input-wrapper mb-3 w-sm-25 ">
                 <label class="fs-6">Full Name</label>
                 <input class="form-control" type="text" placeholder="Full Name" required autofocus>
             </div>
-            <div class="signup-inputs mb-3 w-sm-25">
+            <div class="input-wrapper mb-3 w-sm-25">
                 <label class="fs-6">NID No / Passport No</label>
                 <input class="form-control" type="number" placeholder="00 XXXXXXXX" required autofocus>
             </div>
@@ -32,11 +32,11 @@
             {{--  --}}
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="mb-2 d-flex flex-column signup-inputs dob-select-container">
+                    <div class="mb-2 d-flex flex-column input-wrapper dob-select-container">
                         <label class="fs-6">Date of Birth</label>
                         <input type="date" class="form-control" id="exampleInputDOB1" placeholder="Date of Birth">
                     </div>
-                    <div class=" d-flex mb-3 flex-column signup-inputs select-container">
+                    <div class=" d-flex mb-3 flex-column input-wrapper select-container">
                         <label class="fs-6">Gender</label>
                         <select name="format" id="format" class="gender-select" data-width="fit">
                             <option value="0">Select</option>
@@ -45,13 +45,13 @@
                             <option value="3">Other</option>
                         </select>
                     </div>
-                    <div class="signup-inputs mb-3 ">
+                    <div class="input-wrapper mb-3 ">
                         <label class="fs-6">Phone Number</label>
                         <input class="form-control" type="number" placeholder="+880 1XXX XXX" required autofocus>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="d-flex mb-3 flex-column signup-inputs select-container">
+                    <div class="d-flex mb-3 flex-column input-wrapper select-container">
                         <label class="fs-6">Division</label>
                         <select name="format" id="format" class="gender-select" data-width="fit">
                             <option value="0">Select</option>
@@ -59,7 +59,7 @@
                             <option value="2">Other</option>
                         </select>
                     </div>
-                    <div class="d-flex mb-3 flex-column signup-inputs select-container">
+                    <div class="d-flex mb-3 flex-column input-wrapper select-container">
                         <label class="fs-6">Upazila</label>
                         <select name="format" id="format" class="gender-select" data-width="fit">
                             <option value="0">Select</option>
@@ -67,7 +67,7 @@
                             <option value="2">Other</option>
                         </select>
                     </div>
-                    <div class="d-flex mb-3 flex-column signup-inputs select-container">
+                    <div class="d-flex mb-3 flex-column input-wrapper select-container">
                         <label class="fs-6">Village</label>
                         <select name="format" id="format" class="gender-select" data-width="fit">
                             <option value="0">Select</option>
@@ -77,7 +77,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="d-flex mb-3 flex-column signup-inputs select-container">
+                    <div class="d-flex mb-3 flex-column input-wrapper select-container">
                         <label class="fs-6">Village</label>
                         <select name="format" id="format" class="gender-select" data-width="fit">
                             <option value="0">Select</option>
@@ -85,7 +85,7 @@
                             <option value="2">Other</option>
                         </select>
                     </div>
-                    <div class="d-flex mb-3 flex-column signup-inputs select-container">
+                    <div class="d-flex mb-3 flex-column input-wrapper select-container">
                         <label class="fs-6">District</label>
                         <select name="format" id="format" class="gender-select" data-width="fit">
                             <option value="0">Select</option>
