@@ -6,6 +6,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BookingController;
 use App\Http\Controllers\CrowdFundInvestorController;
 use App\Http\Controllers\AccountController;
+use App\Http\Controllers\InventoryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -60,4 +61,8 @@ Route::get('/account/personal-information', [AccountController::class, 'personal
 Route::get('/account/bank-information', [AccountController::class, 'bankInformation'])->name('account.bankInfo');
 
 Route::get('/account/nominee-information', [AccountController::class, 'nomineeInformation'])->name('account.nomineeInfo');
+
+Route::get('/inventory/farmer-registration', [InventoryController::class, 'farmerRegistration'])->name('inventory.farmerReg');
+
+Route::get('/inventory/community', [InventoryController::class, 'community'])->name('inventory.community');
 
