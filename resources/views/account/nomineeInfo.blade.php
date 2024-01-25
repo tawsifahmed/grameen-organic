@@ -1,7 +1,7 @@
 @extends('layouts.myAccount')
 @section('content')
     <div class="account-nominee container mb-5">
-        <form style="w-100">
+        <form >
             <div class="input-wrapper mb-3 w-sm-25 ">
                 <label class="fs-6">Nominee Name</label>
                 <input class="form-control" type="text" placeholder="Provide nominee name" required autofocus>

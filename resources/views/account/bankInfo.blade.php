@@ -1,7 +1,7 @@
 @extends('layouts.myAccount')
 @section('content')
     <div class="account-bank container mb-5">
-        <form style="w-100">
+        <form >
             <div class="input-wrapper mb-3 w-sm-25 ">
                 <label class="fs-6">Name of the bank</label>
                 <input class="form-control" type="text" placeholder="Provide bank name" required autofocus>

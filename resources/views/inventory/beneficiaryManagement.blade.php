@@ -1,7 +1,7 @@
 @extends('layouts.inventory')
 @section('content')
     <div class="beneficiary-mng container mb-5">
-        <form style="w-100">
+        <form>
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="input-wrapper">

@@ -1,7 +1,7 @@
 @extends('layouts.inventory')
 @section('content')
     <div class="farmer-reg container mb-5">
-        <form style="w-100">
+        <form >
             <div class="input-wrapper mb-3 w-sm-25 ">
                 <label class="fs-6">Full Name</label>
                 <input class="form-control" type="text" placeholder="Full Name" required autofocus>
