@@ -21,9 +21,9 @@
                                     <input class="form-control py-4" type="text" placeholder="Full Name" required
                                         autofocus>
                                 </div>
-                                <div class="d-flex mb-3 flex-column input-wrapper gender-select-container">
+                                <div class="d-flex mb-3 flex-column input-wrapper input-selector-container">
                                     <label class="fs-6">Gender</label>
-                                    <select name="format" id="format" class="gender-select" data-width="fit">
+                                    <select name="format" id="format" class="input-selector" data-width="fit">
                                         <option value="0">Male</option>
                                         <option value="1">Female</option>
                                         <option value="2">Other</option>

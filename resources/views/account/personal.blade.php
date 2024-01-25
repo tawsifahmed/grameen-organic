@@ -33,9 +33,9 @@
                 <label class="fs-6">Date of Birth</label>
                 <input type="date" class="form-control" id="exampleInputDOB1" placeholder="Date of Birth">
             </div>
-            <div class="w-sm-25 d-flex mb-3 flex-column input-wrapper gender-select-container">
+            <div class="w-sm-25 d-flex mb-3 flex-column input-wrapper input-selector-container">
                 <label class="fs-6">Gender</label>
-                <select name="format" id="format" class="gender-select" data-width="fit">
+                <select name="format" id="format" class="input-selector" data-width="fit">
                     <option value="0">Male</option>
                     <option value="1">Female</option>
                     <option value="2">Other</option>

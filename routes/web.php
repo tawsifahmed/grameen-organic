@@ -66,3 +66,7 @@ Route::get('/inventory/farmer-registration', [InventoryController::class, 'farme
 
 Route::get('/inventory/community', [InventoryController::class, 'community'])->name('inventory.community');
 
+Route::get('/inventory/beneficiary-management', [InventoryController::class, 'beneficiaryManagement'])->name('inventory.beneficiaryManagement');
+
+Route::get('/inventory/project-initialization', [InventoryController::class, 'projectInitialization'])->name('inventory.projectInit');
+

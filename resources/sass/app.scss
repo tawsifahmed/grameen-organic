@@ -1732,8 +1732,8 @@
             }
           }
 
-          .gender-select-container {
-            .gender-select {
+          .input-selector-container {
+            .input-selector {
               display: inline-block;
               padding: 14px; /* Increased padding */
               border: 1px solid #e0e6ff; /* Border color */
@@ -2725,8 +2725,8 @@
         shadow: 0 0 5px rgba(0, 0, 0, 0.2);
       }
     }
-    .gender-select-container {
-      .gender-select {
+    .input-selector-container {
+      .input-selector {
         display: inline-block;
         padding: 14px; /* Increased padding */
         border: 1px solid #e0e6ff; /* Border color */
@@ -2848,8 +2848,8 @@
         shadow: 0 0 5px rgba(0, 0, 0, 0.2);
       }
     }
-    .gender-select-container {
-      .gender-select {
+    .input-selector-container {
+      .input-selector {
         display: inline-block;
         padding: 14px; /* Increased padding */
         border: 1px solid #e0e6ff; /* Border color */
@@ -2946,7 +2946,7 @@
       }
     }
     .select-container {
-      .gender-select {
+      .input-selector {
         display: inline-block;
         padding: 14px; /* Increased padding */
         border: 1px solid #e0e6ff; /* Border color */
@@ -2986,12 +2986,15 @@
   form {
 
     .location-setup{
-      width: 75%;
-      border: 1px dotted black;
+      
+      @media(min-width: 767px){
+        width: 75%;
+      }
+      border: 1px dashed black;
       padding: 10px;
     }
     .farmer-group-setup{
-      border: 1px dotted black;
+      border: 1px dashed black;
       padding: 10px;
     }
     .input-wrapper {
@@ -3008,50 +3011,8 @@
         box-sizing: border-box;
       }
     }
-    .nid-imgs {
-      .file-container {
-        display: inline-block;
-        margin-right: 20px;
-      }
-
-      .img-preview {
-        display: none;
-        width: 300px;
-        border: 2px dashed #333;
-        margin-bottom: 10px;
-      }
-
-      .img-preview img {
-        width: 100%;
-        height: auto;
-        display: block;
-      }
-
-      .choose-file {
-        height: 0;
-        width: 0;
-        overflow: hidden;
-      }
-
-      .file-label {
-        font-family: sans-serif;
-        background: #19aaf8;
-        padding: 10px 10px;
-        width: 200px;
-        border-radius: 3px;
-        color: #fff;
-        cursor: pointer;
-        text-align: center;
-        transition: all 0.2s;
-      }
-
-      .file-label:hover {
-        background-color: #1583be;
-        shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-      }
-    }
     .select-container {
-      .gender-select {
+      .input-selector {
         display: inline-block;
         padding: 14px; /* Increased padding */
         border: 1px solid #e0e6ff; /* Border color */
@@ -3085,3 +3046,131 @@
     }
   }
 }
+
+// beneficiary management -inventory
+.beneficiary-mng {
+  form {
+
+    .location-setup{
+      
+      @media(min-width: 767px){
+        width: 75%;
+      }
+    }
+    .beneficiary-setup{
+      .beneficiary-inputs-wrapper{
+        border: 1px dashed black;
+        margin-bottom: 9.92px;
+      }
+    }
+    .input-wrapper {
+      label {
+        color: #8c98a9;
+      }
+      input {
+        width: 100%;
+        padding: 12px; /* Increased padding */
+        border: 1px solid #e0e6ff; /* Border color */
+        border-radius: 4px;
+        background-color: #f9faff; /* Background color */
+        margin-bottom: 8px;
+        box-sizing: border-box;
+      }
+    }
+    
+    .select-container {
+      .input-selector {
+        display: inline-block;
+        padding: 14px; /* Increased padding */
+        border: 1px solid #e0e6ff; /* Border color */
+        border-radius: 4px;
+        background-color: #f9faff; /* Background color */
+        width: 100%;
+        &::after {
+          content: "\f107"; /* Unicode character for a Font Awesome down arrow */
+          font-family: "Font Awesome 5 Free"; /* Font family for Font Awesome icons */
+          font-size: 12px;
+          color: #555;
+          position: absolute;
+          top: 50%;
+          right: 8px; /* Adjusted margin on the right side */
+          transform: translateY(-50%);
+          pointer-events: none; /* To ensure the arrow doesn't interfere with select events */
+        }
+      }
+    }
+    .submit-btn {
+      transition: all 0.2s;
+      width: 100%;
+    }
+    .submit-btn:hover {
+      background-color: #1583be;
+    }
+  }
+}
+
+//project initiation -inventory
+.project-init {
+  form {
+
+    .location-setup{
+      
+      @media(min-width: 767px){
+        width: 75%;
+      }
+      border: 1px dashed black;
+      padding: 10px;
+    }
+    .farmer-group-setup{
+      border: 1px dashed black;
+      padding: 10px;
+    }
+    .input-wrapper {
+      label {
+        color: #8c98a9;
+      }
+      input {
+        width: 100%;
+        padding: 12px; /* Increased padding */
+        border: 1px solid #e0e6ff; /* Border color */
+        border-radius: 4px;
+        background-color: #f9faff; /* Background color */
+        margin-bottom: 8px;
+        box-sizing: border-box;
+      }
+    }
+    .select-container {
+      .input-selector {
+        display: inline-block;
+        padding: 14px; /* Increased padding */
+        border: 1px solid #e0e6ff; /* Border color */
+        border-radius: 4px;
+        background-color: #f9faff; /* Background color */
+        width: 100%;
+        &::after {
+          content: "\f107"; /* Unicode character for a Font Awesome down arrow */
+          font-family: "Font Awesome 5 Free"; /* Font family for Font Awesome icons */
+          font-size: 12px;
+          color: #555;
+          position: absolute;
+          top: 50%;
+          right: 8px; /* Adjusted margin on the right side */
+          transform: translateY(-50%);
+          pointer-events: none; /* To ensure the arrow doesn't interfere with select events */
+        }
+      }
+    }
+    .dob-select-container {
+      input {
+        height: 50px;
+      }
+    }
+    .submit-btn {
+      transition: all 0.2s;
+      width: 100%;
+    }
+    .submit-btn:hover {
+      background-color: #1583be;
+    }
+  }
+} 

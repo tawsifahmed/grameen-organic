@@ -38,7 +38,7 @@
                     </div>
                     <div class=" d-flex mb-3 flex-column input-wrapper select-container">
                         <label class="fs-6">Gender</label>
-                        <select name="format" id="format" class="gender-select" data-width="fit">
+                        <select name="format" id="format" class="input-selector" data-width="fit">
                             <option value="0">Select</option>
                             <option value="1">Male</option>
                             <option value="2">Female</option>
@@ -53,7 +53,7 @@
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="d-flex mb-3 flex-column input-wrapper select-container">
                         <label class="fs-6">Division</label>
-                        <select name="format" id="format" class="gender-select" data-width="fit">
+                        <select name="format" id="format" class="input-selector" data-width="fit">
                             <option value="0">Select</option>
                             <option value="1">Dhaka</option>
                             <option value="2">Other</option>
@@ -61,7 +61,7 @@
                     </div>
                     <div class="d-flex mb-3 flex-column input-wrapper select-container">
                         <label class="fs-6">Upazila</label>
-                        <select name="format" id="format" class="gender-select" data-width="fit">
+                        <select name="format" id="format" class="input-selector" data-width="fit">
                             <option value="0">Select</option>
                             <option value="1">Rupganj</option>
                             <option value="2">Other</option>
@@ -69,7 +69,7 @@
                     </div>
                     <div class="d-flex mb-3 flex-column input-wrapper select-container">
                         <label class="fs-6">Village</label>
-                        <select name="format" id="format" class="gender-select" data-width="fit">
+                        <select name="format" id="format" class="input-selector" data-width="fit">
                             <option value="0">Select</option>
                             <option value="1">Rupganj</option>
                             <option value="2">Other</option>
@@ -79,7 +79,7 @@
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="d-flex mb-3 flex-column input-wrapper select-container">
                         <label class="fs-6">Village</label>
-                        <select name="format" id="format" class="gender-select" data-width="fit">
+                        <select name="format" id="format" class="input-selector" data-width="fit">
                             <option value="0">Select</option>
                             <option value="1">Rupganj</option>
                             <option value="2">Other</option>
@@ -87,7 +87,7 @@
                     </div>
                     <div class="d-flex mb-3 flex-column input-wrapper select-container">
                         <label class="fs-6">District</label>
-                        <select name="format" id="format" class="gender-select" data-width="fit">
+                        <select name="format" id="format" class="input-selector" data-width="fit">
                             <option value="0">Select</option>
                             <option value="1">Feni</option>
                             <option value="2">Other</option>

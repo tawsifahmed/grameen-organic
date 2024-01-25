@@ -1,9 +1,9 @@
 @extends('layouts.inventory')
 @section('content')
-    <div class="inv-community container mb-5">
+    <div class="project-init container mb-5">
         <form style="w-100">
             <div class="input-wrapper mb-3 w-sm-25 ">
-                <label class="fs-6">Community ID (Auto Generated) </label>
+                <label class="fs-6">Project ID</label>
                 <input class="form-control" type="text" placeholder="ID" required autofocus>
             </div>
             <div class="row my-4 location-setup">
