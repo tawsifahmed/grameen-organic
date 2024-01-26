@@ -1,0 +1,58 @@
+//crowd-investor dashboard
+.crowd-dashboard {
+    .dashboard-headers {
+      .d-card {
+        border-radius: 8px;
+        padding: 10px 10px;
+        margin-bottom: 10px;
+        p {
+          margin-bottom: 0px;
+        }
+        .card-text {
+          font-size: 12px;
+        }
+        .current-v-text {
+          color: #838383;
+        }
+        .current-v-amount {
+          color: #2c2c2c;
+        }
+      }
+      .funded {
+        background: #a6f7e2;
+        .amount-text {
+          color: #77b900;
+        }
+      }
+      .earning {
+        background: #b79bff;
+      }
+      .act-farm {
+        background: #ffe5a5;
+      }
+      .mat-farm {
+        background: #c7ffa5;
+      }
+    }
+    .dashboard-products {
+      p {
+        margin-bottom: 0px !important;
+      }
+      .product-list {
+        .product-card {
+          border-radius: 8px;
+          background: #efe9ff;
+          .img-wrapper {
+            width: 83px;
+            height: 83px;
+            background-color: #dedede;
+            border-radius: 10px;
+          }
+          h5,
+          h6 {
+            margin-bottom: 0px !important;
+          }
+        }
+      }
+    }
+  }

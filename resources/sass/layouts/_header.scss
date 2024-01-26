@@ -1,0 +1,144 @@
+// navbar section
+.nav {
+    padding-top: 22px;
+  
+    .left-part {
+      .lang-selector {
+        select {
+          // outline:0;
+          // box-shadow:none;
+          // border:0!important;
+          // background: #ffffff;
+          // background-image: none;
+          // flex: 1;
+  
+          // color:#000000;
+          // font-size: 1em;
+          cursor: pointer;
+          font-family: "Nunito", sans-serif;
+          border: 0 !important;
+          color: #a8a0a0;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: 0.9px;
+          -moz-appearance: none;
+          -webkit-appearance: none;
+          appearance: none;
+          background-image: url("../../public/assets/images/icons/down-arrow1.svg");
+          background-repeat: no-repeat;
+          background-position: right center;
+          background-size: 16px;
+          padding-right: 20px;
+        }
+      }
+      .brand-logo-wrapper img {
+        width: 274px;
+        height: 126px;
+        cursor: pointer;
+        margin-top: 22px;
+      }
+    }
+    .mid-n-right-part {
+      @media (max-width: 768px) {
+        padding-top: 0px;
+      }
+      padding-top: 13px;
+      .mid-part {
+        a {
+          color: #374b5c;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          text-decoration: none;
+          @media (max-width: 1199px) {
+            font-size: 0.9rem !important;
+          }
+        }
+        a:hover {
+          border-bottom: 3px solid #00bd6a;
+        }
+      }
+  
+      .right-part {
+        .notification-icon-wrapper {
+          cursor: pointer;
+          width: 24px;
+          height: 24px;
+        }
+        .user-logo-wrapper {
+          cursor: pointer;
+          width: 48px;
+          height: 48px;
+          // margin-right: 51px;
+        }
+        .login-signup {
+          display: flex;
+          justify-content: space-between;
+          gap: 8px;
+          @media (max-width: 321px) {
+            gap: 4px;
+          }
+          @media (max-width: 1199px) {
+            margin-top: 5px !important;
+            .login-btn {
+              padding: 5px 0px !important;
+              width: 90px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            .signup-btn {
+              padding: 5px 0px !important;
+              width: 90px;
+              display: flex;
+              justify-content: center;
+              border: 0.5px solid #eaeaea !important;
+              align-items: center;
+            }
+          }
+          .login-btn {
+            background-color: #00bd6a;
+            text-decoration: none;
+            border: none;
+            display: flex;
+            align-items: center;
+            padding: 11px 26px;
+            border-radius: 5px;
+            svg {
+              margin-right: 9px;
+            }
+            p {
+              margin-bottom: 0 !important;
+            }
+          }
+          .signup-btn {
+            background-color: white;
+            text-decoration: none;
+            border: none;
+            display: flex;
+            align-items: center;
+            padding: 11px 26px;
+            border-radius: 5px;
+            svg {
+              margin-right: 9px;
+            }
+            p {
+              margin-bottom: 0 !important;
+              color: #00bd6a !important;
+            }
+          }
+          .signup-btn:hover {
+            background-color: #00bd6a;
+            svg {
+              fill: white;
+            }
+            p {
+              color: white !important;
+            }
+          }
+        }
+      }
+    }
+  }

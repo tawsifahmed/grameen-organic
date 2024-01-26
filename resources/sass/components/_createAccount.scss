@@ -1,0 +1,141 @@
+//create-acc
+.createacc-wrapper {
+    .w-100 {
+      .lang-selector {
+        float: right;
+        select {
+          // outline:0;
+          // box-shadow:none;
+          // border:0!important;
+          // background: #ffffff;
+          // background-image: none;
+          // flex: 1;
+  
+          // color:#000000;
+          // font-size: 1em;
+          cursor: pointer;
+          font-family: "Nunito", sans-serif;
+          border: 0 !important;
+          color: #a8a0a0;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: 0.9px;
+          -moz-appearance: none;
+          -webkit-appearance: none;
+          appearance: none;
+          background-image: url("../../public/assets/images/icons/down-arrow1.svg");
+          background-repeat: no-repeat;
+          background-position: right center;
+          background-size: 16px;
+          padding-right: 20px;
+        }
+      }
+    }
+    .create-acc {
+      .create-brief {
+        color: #000;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-align: center;
+      }
+      .styled-checkbox {
+        --normal-bg: #eee;
+        --hover-bg: #ddd;
+        --active-bg: #007bff;
+  
+        label {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          color: #000;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          cursor: pointer;
+  
+          &:before {
+            content: "";
+            background-color: white;
+            border: 1px solid #ccc;
+            background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 50 50' width='50px' height='50px' fill='white'><path d='M 41.9375 8.625 C 41.273438 8.648438 40.664063 9 40.3125 9.5625 L 21.5 38.34375 L 9.3125 27.8125 C 8.789063 27.269531 8.003906 27.066406 7.28125 27.292969 C 6.5625 27.515625 6.027344 28.125 5.902344 28.867188 C 5.777344 29.613281 6.078125 30.363281 6.6875 30.8125 L 20.625 42.875 C 21.0625 43.246094 21.640625 43.410156 22.207031 43.328125 C 22.777344 43.242188 23.28125 42.917969 23.59375 42.4375 L 43.6875 11.75 C 44.117188 11.121094 44.152344 10.308594 43.78125 9.644531 C 43.410156 8.984375 42.695313 8.589844 41.9375 8.625 Z' /></svg>");
+            background-size: 1000%;
+            background-position: center;
+            display: block;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            transition: 0.2s;
+          }
+  
+          &:hover {
+            &:before {
+              background-color: var(--hover-bg);
+            }
+          }
+  
+          &:active {
+            &:before {
+              transform: scale(0.9);
+            }
+          }
+        }
+        input {
+          display: none;
+  
+          &:checked + label:before {
+            background-color: var(--active-bg);
+            background-size: 90%;
+            border: none;
+          }
+        }
+      }
+      .create-login-btns-wrapper {
+        .create-btn {
+          background-color: #00bd6a;
+          padding: 21px 90px;
+          color: rgba(255, 255, 255, 0.87);
+          font-size: 19px;
+          font-style: normal;
+          font-weight: 400;
+          border-radius: 50px;
+          border: none;
+          line-height: normal;
+        }
+        .login-btn {
+          background-color: white;
+          padding: 21px 133px;
+          color: black;
+          font-size: 19px;
+          font-style: normal;
+          font-weight: 400;
+          border-radius: 50px;
+          border: 1px solid black;
+          line-height: normal;
+        }
+      }
+    }
+    .login-text {
+      color: #616161;
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      a {
+        color: #4285f4;
+      }
+    }
+  
+    .privacy-route {
+      color: #beb8b8;
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }

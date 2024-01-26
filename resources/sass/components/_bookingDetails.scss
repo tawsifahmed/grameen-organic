@@ -1,0 +1,75 @@
+//booking-details
+.booking-details-wrapper {
+    .form-wrapper {
+      form {
+        width: 50%;
+        margin-top: 50px;
+        @media (max-width: 991px) and (min-width: 768px) {
+          margin-top: 350px;
+        }
+  
+        @media (max-width: 767px) {
+          margin-top: 390px;
+          .second-part {
+            .product-brief {
+              .product-inf {
+                h5 {
+                  font-size: 0.8rem !important;
+                }
+                h6 {
+                  font-size: 0.6rem !important;
+                }
+              }
+            }
+            .amount-section {
+              b {
+                font-size: 0.6rem !important;
+              }
+            }
+          }
+        }
+        .first-part {
+          .rmv-btn {
+            color: #8998a8;
+            font-family: Abhaya Libre;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            background: none;
+            line-height: normal;
+            text-decoration: none;
+            border: none;
+          }
+        }
+        .second-part {
+          .product-brief {
+            .product-img-wrapper {
+              width: 83px;
+              height: 83px;
+              background-color: #dedede;
+              border-radius: 10px;
+            }
+          }
+        }
+        .third-part {
+          margin-top: 110px;
+        }
+        .next-btn {
+          color: rgba(255, 255, 255, 0.87);
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          background-color: #00bd6a;
+          line-height: normal;
+          padding: 15px 50px;
+          text-align: center;
+          text-decoration: none;
+          width: 290px;
+          align-self: center;
+          border-radius: 35px;
+          border: none;
+          margin-top: 20px;
+        }
+      }
+    }
+  }

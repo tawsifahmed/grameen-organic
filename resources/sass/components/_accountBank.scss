@@ -1,0 +1,27 @@
+// myAccount bank
+.account-bank {
+    form {
+      .input-wrapper {
+        label {
+          color: #8c98a9;
+        }
+        input {
+          width: 100%;
+          padding: 12px; /* Increased padding */
+          border: 1px solid #e0e6ff; /* Border color */
+          border-radius: 4px;
+          background-color: #f9faff; /* Background color */
+          margin-bottom: 8px;
+          box-sizing: border-box;
+        }
+      }
+  
+      .submit-btn {
+        transition: all 0.2s;
+        width: 100%;
+      }
+      .submit-btn:hover {
+        background-color: #1583be;
+      }
+    }
+  }

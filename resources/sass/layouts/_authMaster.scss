@@ -1,0 +1,61 @@
+//myAccount layout (authMaster)
+.my-profile-layout {
+    .com-layout {
+      .sideb {
+        .sidebar {
+          color: #fff;
+          width: 100%;
+        }
+  
+        .sidebar ul {
+          list-style: none;
+          padding: 0;
+        }
+  
+        .sidebar li {
+          margin-bottom: 10px;
+          padding: 8px 16px;
+          border-radius: 50px;
+          word-break: keep-all;
+          font-size: 13x;
+          background-color: #d6d8db;
+          @media (min-width: 768px) {
+            width: 20%;
+          }
+  
+          text-align: center;
+        }
+  
+        .sidebar a {
+          text-decoration: none;
+          color: black;
+          text-align: center;
+          font-weight: 600;
+        }
+  
+        .sidebar a:hover {
+          color: #00bd6a;
+        }
+  
+        .sidebar .active {
+          background: #efe9ff;
+  
+          a {
+            color: #19aaf8;
+          }
+        }
+  
+        @media(max-width: 767px){
+          .sidebar li{
+            padding: 0px;
+            border-radius: 0px;
+            border-bottom: 2px solid #b4e2fd;
+            background: none !important;
+          }.sidebar .active {
+            background: none !important;
+            border-bottom: 2px solid #19AAF8;
+          }
+        }
+      }
+    }
+  }

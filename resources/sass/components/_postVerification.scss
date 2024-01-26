@@ -1,0 +1,32 @@
+//welcome page (post otp)
+.welcome-wrapper {
+    .create-acc {
+      .create-brief {
+        color: #000;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-align: center;
+      }
+      .welcome-btn-wrapper {
+        button {
+          display: block;
+          width: 100%;
+          font-size: 1rem;
+          border-radius: 6px;
+          margin-top: 25px;
+          padding: 14px 44px;
+          color: #fff;
+          background: #00bd6a;
+          border: none;
+          cursor: pointer;
+          border-radius: 30px;
+          transition: all 0.2s ease;
+          a {
+            text-decoration: none !important;
+          }
+        }
+      }
+    }
+  }

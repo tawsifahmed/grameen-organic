@@ -1,0 +1,49 @@
+//booking-confirmation
+.booking-confirmation-info-wrapper {
+    .form-wrapper {
+      form {
+        width: 50%;
+        @media (max-width: 680px) {
+          margin-top: 400px;
+          .form-details-wrapper {
+            background-color: #00bd6a;
+            padding: 15px;
+            border-radius: 15px;
+          }
+  
+          h1 {
+            color: white !important;
+          }
+          p{
+            font-weight: normal !important;
+          }
+        }
+        margin-top: 50px;
+        .congratulation-text {
+          font-weight: 800;
+        }
+        .instruction-details {
+          p {
+            font-weight: 700;
+          }
+        }
+        .next-btn {
+          color: rgba(255, 255, 255, 0.87);
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          cursor: pointer;
+          background-color: #00bd6a;
+          line-height: normal;
+          padding: 15px 50px;
+          text-align: center;
+          text-decoration: none;
+          width: 290px;
+          align-self: center;
+          border-radius: 35px;
+          border: none;
+          margin-top: 20px;
+        }
+      }
+    }
+  }

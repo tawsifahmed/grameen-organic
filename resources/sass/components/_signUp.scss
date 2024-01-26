@@ -1,0 +1,299 @@
+//signup page
+.signup-wrapper {
+    .w-100 {
+      .lang-selector {
+        float: right;
+        select {
+          // outline:0;
+          // box-shadow:none;
+          // border:0!important;
+          // background: #ffffff;
+          // background-image: none;
+          // flex: 1;
+  
+          // color:#000000;
+          // font-size: 1em;
+          cursor: pointer;
+          font-family: "Nunito", sans-serif;
+          border: 0 !important;
+          color: #a8a0a0;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: 0.9px;
+          -moz-appearance: none;
+          -webkit-appearance: none;
+          appearance: none;
+          background-image: url("../../public/assets/images/icons/down-arrow1.svg");
+          background-repeat: no-repeat;
+          background-position: right center;
+          background-size: 16px;
+          padding-right: 20px;
+        }
+      }
+    }
+    .signup {
+      width: 50%;
+      .login-brief {
+        margin-top: 30px;
+        color: #616161;
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+      }
+      .login-lang {
+        .login-acc {
+          color: #000;
+          font-size: 17.5px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          margin: 0;
+        }
+        .login-welcome {
+          color: #636363;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+      }
+      .input-wrapper {
+        .group::after,
+        .tabBlock-tabs::after {
+          clear: both;
+          content: "";
+          display: table;
+        }
+  
+        *,
+        ::before,
+        ::after {
+          box-sizing: border-box;
+        }
+  
+        body {
+          color: #222;
+          font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial",
+            sans-serif;
+          line-height: 1.5;
+          margin: 0 auto;
+          max-width: 50rem;
+          padding: 2.5rem 1.25rem;
+        }
+        @media screen and (min-width: 700px) {
+          body {
+            font-size: 137.5%;
+          }
+        }
+  
+        p,
+        ol,
+        ul {
+          margin-bottom: 1.25rem;
+          margin-top: 0;
+        }
+  
+        ol,
+        ul {
+          padding: 0;
+          margin-left: 1.25rem;
+        }
+  
+        .unstyledList,
+        .tabBlock-tabs {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+  
+        .tabBlock {
+          margin: 0 0 2.5rem;
+        }
+  
+        .tabBlock-tab {
+          background-color: #fff;
+          border-bottom-style: solid;
+          // border-width: 2px;
+          color: black;
+          cursor: pointer;
+          display: inline-block;
+          color: #2e384d;
+          font-family: Roboto;
+          font-style: normal;
+          border-bottom: 2px solid rgba(51, 180, 250, 0.33);
+          font-weight: 400;
+          line-height: normal;
+          font-weight: 600;
+          float: left;
+          text-align: left;
+          padding: 0.625rem 0.25rem;
+          position: relative;
+          -webkit-transition: 0.1s ease-in-out;
+          transition: 0.1s ease-in-out;
+        }
+  
+        .email-tab {
+        }
+  
+        .ph-tab {
+          border-left: none;
+        }
+        .tabBlock-tab:last-of-type {
+        }
+        .tabBlock-tab::before,
+        .tabBlock-tab::after {
+          content: "";
+          display: block;
+          height: 4px;
+          position: absolute;
+          -webkit-transition: 0.1s ease-in-out;
+          transition: 0.1s ease-in-out;
+        }
+        .tabBlock-tab::before {
+          background-color: none;
+          left: -2px;
+          right: -2px;
+          top: -2px;
+        }
+        .tabBlock-tab::after {
+          background-color: transparent;
+          bottom: -2px;
+          left: 0;
+          right: 0;
+        }
+        @media screen and (min-width: 700px) {
+          .tabBlock-tab {
+            // padding-left: 2.5rem;
+            // padding-right: 2.5rem;
+          }
+        }
+        .tabBlock-tab.is-active {
+          position: relative;
+          color: #2e384d;
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          color: black;
+          z-index: 1;
+          background-color: white;
+          border-bottom: 2px solid #19aaf8;
+          text-align: left;
+        }
+        .tabBlock-tab.is-active::before {
+          background-color: none;
+        }
+        .tabBlock-tab.is-active::after {
+          // background-color: #fff;
+        }
+  
+        .tabBlock-content {
+          background-color: #fff;
+          padding: 2.25rem 0rem;
+        }
+  
+        .tabBlock-pane > :last-child {
+          margin-bottom: 0;
+        }
+        .tabBlock-pane {
+          .google-wrapper {
+            margin-top: 33px;
+            button {
+              text-decoration: none !important;
+              border: none !important;
+              background-color: white;
+              p {
+                color: #000;
+                font-size: 18px;
+                background-color: white;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                margin-bottom: 0px !important;
+              }
+            }
+          }
+          .signup-forms {
+            width: 383px;
+            .input-wrapper {
+              label {
+                color: #8c98a9;
+              }
+              input {
+                width: 100%;
+                padding: 12px; /* Increased padding */
+                border: 1px solid #e0e6ff; /* Border color */
+                border-radius: 4px;
+                background-color: #f9faff; /* Background color */
+                margin-bottom: 8px;
+                box-sizing: border-box;
+              }
+            }
+  
+            .input-selector-container {
+              .input-selector {
+                display: inline-block;
+                padding: 14px; /* Increased padding */
+                border: 1px solid #e0e6ff; /* Border color */
+                border-radius: 4px;
+                background-color: #f9faff; /* Background color */
+                width: 100%;
+                &::after {
+                  content: "\f107"; /* Unicode character for a Font Awesome down arrow */
+                  font-family: "Font Awesome 5 Free"; /* Font family for Font Awesome icons */
+                  font-size: 12px;
+                  color: #555;
+                  position: absolute;
+                  top: 50%;
+                  right: 8px; /* Adjusted margin on the right side */
+                  transform: translateY(-50%);
+                  pointer-events: none; /* To ensure the arrow doesn't interfere with select events */
+                }
+              }
+            }
+            .dob-select-container {
+              input {
+                height: 50px;
+              }
+            }
+  
+            .forgot-pass {
+              width: 100%;
+              text-align: right;
+              color: #4285f4;
+              float: left;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              margin-bottom: 31px;
+            }
+          }
+          .create-acc-wrapper {
+            p {
+              margin-top: 31px;
+              color: #636363;
+              margin-bottom: 0px !important;
+  
+              font-size: 13px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+            a {
+              text-decoration: none;
+              color: #000;
+  
+              font-size: 13px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+            }
+          }
+        }
+      }
+    }
+  }

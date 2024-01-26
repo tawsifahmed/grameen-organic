@@ -1,0 +1,271 @@
+// signin page
+.login-wrapper {
+    .w-100 {
+      .lang-selector {
+        float: right;
+        select {
+          // outline:0;
+          // box-shadow:none;
+          // border:0!important;
+          // background: #ffffff;
+          // background-image: none;
+          // flex: 1;
+  
+          // color:#000000;
+          // font-size: 1em;
+          cursor: pointer;
+          font-family: "Nunito", sans-serif;
+          border: 0 !important;
+          color: #a8a0a0;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: 0.9px;
+          -moz-appearance: none;
+          -webkit-appearance: none;
+          appearance: none;
+          background-image: url("../../public/assets/images/icons/down-arrow1.svg");
+          background-repeat: no-repeat;
+          background-position: right center;
+          background-size: 16px;
+          padding-right: 20px;
+        }
+      }
+    }
+    .sign-in {
+      width: 50%;
+      .login-brief {
+        margin-top: 30px;
+        color: #616161;
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+      }
+      .login-lang {
+        .login-acc {
+          color: #000;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          margin: 0;
+        }
+        .login-welcome {
+          color: #636363;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+        .select-country {
+          .bootstrap-select .dropdown-toggle {
+            background-color: #fff;
+            border: none; /* Set border color if needed */
+          }
+  
+          .bootstrap-select .dropdown-menu li a {
+            background-color: #fff;
+            color: #495057;
+          }
+  
+          .bootstrap-select .dropdown-menu li a:hover,
+          .bootstrap-select .dropdown-menu li a:focus,
+          .bootstrap-select .dropdown-menu li.active a {
+            background-color: #fff; /* Set the background color when an option is highlighted or selected */
+            color: #007bff; /* Set the text color when an option is highlighted or selected */
+          }
+        }
+      }
+      .login-inputs {
+        width: 85%;
+        .group::after,
+        .tabBlock-tabs::after {
+          clear: both;
+          content: "";
+          display: table;
+        }
+  
+        *,
+        ::before,
+        ::after {
+          box-sizing: border-box;
+        }
+  
+        body {
+          color: #222;
+          font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial",
+            sans-serif;
+          line-height: 1.5;
+          margin: 0 auto;
+          max-width: 50rem;
+          padding: 2.5rem 1.25rem;
+        }
+        @media screen and (min-width: 700px) {
+          body {
+            font-size: 137.5%;
+          }
+        }
+  
+        p,
+        ol,
+        ul {
+          margin-bottom: 1.25rem;
+          margin-top: 0;
+        }
+  
+        ol,
+        ul {
+          padding: 0;
+          margin-left: 1.25rem;
+        }
+  
+        .unstyledList,
+        .tabBlock-tabs {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+  
+        .tabBlock {
+          margin: 0 0 2.5rem;
+        }
+  
+        .tabBlock-tab {
+          background-color: #fff;
+          border-color: black;
+          border-left-style: solid;
+          border-top: solid;
+          border-bottom-style: solid;
+          // border-width: 2px;
+          color: black;
+          cursor: pointer;
+          display: inline-block;
+          font-weight: 600;
+          float: left;
+          padding: 0.625rem 0.25rem;
+          position: relative;
+          -webkit-transition: 0.1s ease-in-out;
+          transition: 0.1s ease-in-out;
+        }
+  
+        .email-tab {
+          border-top-left-radius: 10px;
+          border-bottom-left-radius: 10px;
+        }
+  
+        .ph-tab {
+          border-left: none;
+        }
+        .tabBlock-tab:last-of-type {
+          border-right-style: solid;
+          border-top-right-radius: 10px;
+          border-bottom-right-radius: 10px;
+        }
+        .tabBlock-tab::before,
+        .tabBlock-tab::after {
+          content: "";
+          display: block;
+          height: 4px;
+          position: absolute;
+          -webkit-transition: 0.1s ease-in-out;
+          transition: 0.1s ease-in-out;
+        }
+        .tabBlock-tab::before {
+          background-color: none;
+          left: -2px;
+          right: -2px;
+          top: -2px;
+        }
+        .tabBlock-tab::after {
+          background-color: transparent;
+          bottom: -2px;
+          left: 0;
+          right: 0;
+        }
+        @media screen and (min-width: 700px) {
+          .tabBlock-tab {
+            // padding-left: 2.5rem;
+            // padding-right: 2.5rem;
+          }
+        }
+        .tabBlock-tab.is-active {
+          position: relative;
+          color: white;
+          z-index: 1;
+          background-color: #00bd6a;
+          border: 1px solid #00bd6a;
+        }
+        .tabBlock-tab.is-active::before {
+          background-color: none;
+        }
+        .tabBlock-tab.is-active::after {
+          // background-color: #fff;
+        }
+  
+        .tabBlock-content {
+          background-color: #fff;
+          padding: 2.25rem 0rem;
+        }
+  
+        .tabBlock-pane > :last-child {
+          margin-bottom: 0;
+        }
+        .tabBlock-pane {
+          .google-wrapper {
+            margin-top: 33px;
+            button {
+              text-decoration: none !important;
+              border: none !important;
+              background-color: white;
+              p {
+                color: #000;
+                font-size: 18px;
+                background-color: white;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                margin-bottom: 0px !important;
+              }
+            }
+          }
+          .login-forms {
+            width: 383px;
+            .forgot-pass {
+              width: 100%;
+              text-align: right;
+              color: #4285f4;
+              float: left;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              margin-bottom: 31px;
+            }
+          }
+          .create-acc-wrapper {
+            p {
+              margin-top: 31px;
+              color: #636363;
+              margin-bottom: 0px !important;
+  
+              font-size: 13px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+            a {
+              text-decoration: none;
+              color: #000;
+  
+              font-size: 13px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+            }
+          }
+        }
+      }
+    }
+  }
